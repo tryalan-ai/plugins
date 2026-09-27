@@ -1,0 +1,19 @@
+{
+  "name": "vercel",
+  "displayName": "Vercel",
+  "version": "1.0.0",
+  "description": "Inspect Vercel projects, deployments and build logs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://vercel.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "deployment",
+  "keywords": [
+    "deployments",
+    "hosting",
+    "logs"
+  ],
+  "mcpServers": "./mcp.json"
+}

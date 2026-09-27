@@ -1,0 +1,19 @@
+{
+  "name": "hugging-face",
+  "displayName": "Hugging Face",
+  "version": "1.0.0",
+  "description": "Search models, datasets, Spaces and papers on Hugging Face.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://huggingface.co",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "models",
+    "datasets",
+    "ml"
+  ],
+  "mcpServers": "./mcp.json"
+}

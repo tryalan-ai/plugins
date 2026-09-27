@@ -1,0 +1,19 @@
+{
+  "name": "posthog",
+  "displayName": "PostHog",
+  "version": "1.0.0",
+  "description": "Query PostHog insights, feature flags and experiments.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://posthog.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "analytics",
+  "keywords": [
+    "analytics",
+    "feature-flags",
+    "experiments"
+  ],
+  "mcpServers": "./mcp.json"
+}

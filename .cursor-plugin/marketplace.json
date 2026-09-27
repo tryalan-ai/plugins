@@ -1,0 +1,89 @@
+{
+  "name": "Alan Plugins",
+  "owner": {
+    "name": "Alan",
+    "url": "https://tryalan.ai"
+  },
+  "plugins": [
+    {
+      "name": "linear",
+      "source": "plugins/linear",
+      "description": "Find, create and update Linear issues, projects and comments."
+    },
+    {
+      "name": "notion",
+      "source": "plugins/notion",
+      "description": "Search, read and edit Notion pages and databases."
+    },
+    {
+      "name": "atlassian",
+      "source": "plugins/atlassian",
+      "description": "Work with Jira issues and Confluence pages."
+    },
+    {
+      "name": "sentry",
+      "source": "plugins/sentry",
+      "description": "Investigate Sentry issues, events and releases."
+    },
+    {
+      "name": "posthog",
+      "source": "plugins/posthog",
+      "description": "Query PostHog insights, feature flags and experiments."
+    },
+    {
+      "name": "vercel",
+      "source": "plugins/vercel",
+      "description": "Inspect Vercel projects, deployments and build logs."
+    },
+    {
+      "name": "supabase",
+      "source": "plugins/supabase",
+      "description": "Manage Supabase projects, run SQL and read logs."
+    },
+    {
+      "name": "neon",
+      "source": "plugins/neon",
+      "description": "Manage Neon Postgres projects, branches and queries."
+    },
+    {
+      "name": "stripe",
+      "source": "plugins/stripe",
+      "description": "Look up Stripe customers, payments and subscriptions."
+    },
+    {
+      "name": "figma",
+      "source": "plugins/figma",
+      "description": "Read Figma files, frames and design context."
+    },
+    {
+      "name": "canva",
+      "source": "plugins/canva",
+      "description": "Search, create and edit Canva designs."
+    },
+    {
+      "name": "miro",
+      "source": "plugins/miro",
+      "description": "Read and add content on Miro boards."
+    },
+    {
+      "name": "github",
+      "source": "plugins/github",
+      "description": "Work with GitHub repositories, issues and pull requests using a personal access token."
+    },
+    {
+      "name": "hugging-face",
+      "source": "plugins/hugging-face",
+      "description": "Search models, datasets, Spaces and papers on Hugging Face."
+    },
+    {
+      "name": "cloudflare-docs",
+      "source": "plugins/cloudflare-docs",
+      "description": "Search Cloudflare's developer documentation."
+    },
+    {
+      "name": "docs-research",
+      "source": "plugins/docs-research",
+      "description": "Up-to-date library documentation and repository wikis, with a skill for choosing between them."
+    }
+  ]
+}

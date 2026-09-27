@@ -1,0 +1,20 @@
+{
+  "name": "docs-research",
+  "displayName": "Docs Research",
+  "version": "1.0.0",
+  "description": "Up-to-date library documentation and repository wikis, with a skill for choosing between them.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://github.com/tryalan-ai/plugins",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "docs",
+    "libraries",
+    "research"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}

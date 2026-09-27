@@ -1,0 +1,19 @@
+{
+  "name": "linear",
+  "displayName": "Linear",
+  "version": "1.0.0",
+  "description": "Find, create and update Linear issues, projects and comments.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://linear.app",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "issues",
+    "projects",
+    "planning"
+  ],
+  "mcpServers": "./mcp.json"
+}

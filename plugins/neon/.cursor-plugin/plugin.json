@@ -1,0 +1,19 @@
+{
+  "name": "neon",
+  "displayName": "Neon",
+  "version": "1.0.0",
+  "description": "Manage Neon Postgres projects, branches and queries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://neon.tech",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "postgres",
+    "database",
+    "branches"
+  ],
+  "mcpServers": "./mcp.json"
+}

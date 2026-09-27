@@ -1,0 +1,19 @@
+{
+  "name": "notion",
+  "displayName": "Notion",
+  "version": "1.0.0",
+  "description": "Search, read and edit Notion pages and databases.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.notion.so",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs",
+  "keywords": [
+    "docs",
+    "wiki",
+    "databases"
+  ],
+  "mcpServers": "./mcp.json"
+}

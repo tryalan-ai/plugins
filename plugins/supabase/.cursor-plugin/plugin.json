@@ -1,0 +1,19 @@
+{
+  "name": "supabase",
+  "displayName": "Supabase",
+  "version": "1.0.0",
+  "description": "Manage Supabase projects, run SQL and read logs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://supabase.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "postgres",
+    "database",
+    "auth"
+  ],
+  "mcpServers": "./mcp.json"
+}

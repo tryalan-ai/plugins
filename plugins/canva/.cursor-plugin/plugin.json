@@ -1,0 +1,18 @@
+{
+  "name": "canva",
+  "displayName": "Canva",
+  "version": "1.0.0",
+  "description": "Search, create and edit Canva designs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.canva.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "design",
+    "presentations"
+  ],
+  "mcpServers": "./mcp.json"
+}

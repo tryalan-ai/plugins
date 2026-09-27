@@ -1,0 +1,19 @@
+{
+  "name": "sentry",
+  "displayName": "Sentry",
+  "version": "1.0.0",
+  "description": "Investigate Sentry issues, events and releases.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://sentry.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "monitoring",
+  "keywords": [
+    "errors",
+    "monitoring",
+    "debugging"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "atlassian",
+  "displayName": "Atlassian",
+  "version": "1.0.0",
+  "description": "Work with Jira issues and Confluence pages.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.atlassian.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "jira",
+    "confluence",
+    "issues"
+  ],
+  "mcpServers": "./mcp.json"
+}

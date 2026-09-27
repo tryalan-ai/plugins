@@ -1,0 +1,18 @@
+{
+  "name": "stripe",
+  "displayName": "Stripe",
+  "version": "1.0.0",
+  "description": "Look up Stripe customers, payments and subscriptions.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://stripe.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "payments",
+  "keywords": [
+    "payments",
+    "billing"
+  ],
+  "mcpServers": "./mcp.json"
+}

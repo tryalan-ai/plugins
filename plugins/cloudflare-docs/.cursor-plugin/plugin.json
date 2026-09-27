@@ -1,0 +1,18 @@
+{
+  "name": "cloudflare-docs",
+  "displayName": "Cloudflare Docs",
+  "version": "1.0.0",
+  "description": "Search Cloudflare's developer documentation.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://developers.cloudflare.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "docs",
+    "cloudflare"
+  ],
+  "mcpServers": "./mcp.json"
+}
