@@ -24,8 +24,12 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Hugging Face | None | Models, datasets, Spaces and papers |
 | Cloudflare Docs | None | Cloudflare developer documentation |
 | Docs Research | None | Context7 library docs and DeepWiki repository wikis, plus the `library-docs` skill |
+| Gmail (Preview) | Google OAuth; administrator setup | Messages, labels and drafts |
+| Google Calendar (Preview) | Google OAuth; administrator setup | Calendars, availability and events |
+| Google Drive (Preview) | Google OAuth; administrator setup | File search, metadata, content and creation |
+| Todoist | OAuth | Tasks, projects and completion |
 
-OAuth plugins use each provider's dynamic client registration. Figma and Canva may only accept approved OAuth clients; if connecting fails with a registration error, the provider has not enabled Alan yet.
+OAuth plugins use provider discovery and either dynamic registration or an administrator-registered client. The Google plugins require [Google Workspace preview access and an Alan OAuth client](docs/google-workspace.md). Figma and Canva may only accept approved OAuth clients; if connecting fails with a registration error, the provider has not enabled Alan yet.
 
 ## Layout
 

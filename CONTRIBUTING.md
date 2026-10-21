@@ -28,10 +28,11 @@
    - Remote `https` servers only. Alan does not run stdio servers yet.
    - Never commit a credential. If the server needs a key, reference it as a header: `"headers": { "Authorization": "Bearer ${VENDOR_API_KEY}" }`. Alan asks the user for `VENDOR_API_KEY` and stores it encrypted.
    - Prefer servers that support OAuth dynamic client registration; those connect with one click.
+   - For providers that require a registered OAuth app, document administrator setup and Alan's callback. Client credentials belong in Alan's deployment configuration, not in a Cursor-specific `auth` block that Alan does not import.
    - Do not use `api.cursor.com/rest-mcp/*` servers. They authenticate against Cursor accounts.
 
 4. Optional skills go in `skills/<skill>/SKILL.md`, with `name` equal to the directory and a `description` that says when to use it. Set `"skills": "./skills/"` in the manifest.
 5. Add the plugin to `.cursor-plugin/marketplace.json` with `"source": "plugins/<name>"` and the same description as the manifest.
 6. Run `node scripts/validate.mjs`.
 
-Before listing a server, check it responds: an unauthenticated `initialize` should return `200` (no auth) or `401` with OAuth metadata.
+Before listing a server, check `initialize`, `tools/list`, and its OAuth protected-resource metadata. A `200` response proves discovery works, not that tools can access account data anonymously: Google's servers expose public tool listings but require user OAuth for account operations. Record preview/registration requirements and validate an authenticated tool call before claiming the connector works end to end.

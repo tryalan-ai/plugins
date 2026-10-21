@@ -84,6 +84,26 @@
       "name": "docs-research",
       "source": "plugins/docs-research",
       "description": "Up-to-date library documentation and repository wikis, with a skill for choosing between them."
+    },
+    {
+      "name": "gmail",
+      "source": "plugins/gmail",
+      "description": "Search and read Gmail messages, manage labels and create drafts. Requires Google Workspace Developer Preview access."
+    },
+    {
+      "name": "google-calendar",
+      "source": "plugins/google-calendar",
+      "description": "Find calendars, check availability and manage events. Requires Google Workspace Developer Preview access."
+    },
+    {
+      "name": "google-drive",
+      "source": "plugins/google-drive",
+      "description": "Search and read Drive files, retrieve metadata and create files. Requires Google Workspace Developer Preview access."
+    },
+    {
+      "name": "todoist",
+      "source": "plugins/todoist",
+      "description": "Find, create, update and complete Todoist tasks and manage projects."
     }
   ]
 }

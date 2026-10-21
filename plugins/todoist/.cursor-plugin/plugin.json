@@ -1,0 +1,19 @@
+{
+  "name": "todoist",
+  "displayName": "Todoist",
+  "version": "1.0.0",
+  "description": "Find, create, update and complete Todoist tasks and manage projects.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://github.com/Doist/todoist-mcp",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "todoist",
+    "tasks",
+    "projects"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "google-calendar",
+  "displayName": "Google Calendar (Preview)",
+  "version": "1.0.0",
+  "description": "Find calendars, check availability and manage events. Requires Google Workspace Developer Preview access.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://developers.google.com/workspace/calendar/api/guides/configure-mcp-server",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "google",
+    "calendar",
+    "meetings",
+    "preview"
+  ],
+  "mcpServers": "./mcp.json"
+}
