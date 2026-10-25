@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "definely": {
-      "type": "http",
-      "url": "https://mcp.app.definely.com"
-    }
-  }
-}

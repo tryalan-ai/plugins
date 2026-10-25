@@ -1,0 +1,20 @@
+{
+  "name": "pendo",
+  "displayName": "Pendo",
+  "version": "1.0.0",
+  "description": "Query Pendo product usage, guides and feedback.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.pendo.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "analytics-and-experiments",
+  "keywords": [
+    "product-analytics",
+    "in-app-guides",
+    "feedback"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "legal-data-hunter": {
-      "type": "http",
-      "url": "https://legaldatahunter.com/mcp"
-    }
-  }
-}

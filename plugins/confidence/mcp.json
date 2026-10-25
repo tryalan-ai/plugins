@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "confidence": {
+      "type": "http",
+      "url": "https://mcp.confidence.dev/mcp/flags"
+    }
+  }
+}

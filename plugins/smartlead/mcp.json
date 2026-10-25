@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "smartlead": {
-      "type": "http",
-      "url": "https://mcp.smartlead.ai/mcp"
-    }
-  }
-}

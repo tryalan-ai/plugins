@@ -1,0 +1,20 @@
+{
+  "name": "atlan",
+  "displayName": "Atlan",
+  "version": "1.0.0",
+  "description": "Search the Atlan data catalog for assets, lineage, owners and glossary terms.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://atlan.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "databases-and-backend",
+  "keywords": [
+    "data-catalog",
+    "lineage",
+    "governance"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

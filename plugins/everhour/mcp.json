@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "everhour": {
-      "type": "http",
-      "url": "https://api.everhour.com/mcp"
-    }
-  }
-}

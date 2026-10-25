@@ -1,0 +1,20 @@
+{
+  "name": "mapbox",
+  "displayName": "Mapbox",
+  "version": "1.0.0",
+  "description": "Use Mapbox geocoding, directions, maps and location search.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.mapbox.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "developer-apis",
+  "keywords": [
+    "maps",
+    "geocoding",
+    "location"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

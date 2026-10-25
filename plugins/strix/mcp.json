@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "strix": {
+      "type": "http",
+      "url": "https://app.strix.ai/mcp"
+    }
+  }
+}
