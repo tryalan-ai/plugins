@@ -1,0 +1,20 @@
+{
+  "name": "customer-io",
+  "displayName": "Customer.io",
+  "version": "1.0.0",
+  "description": "Read Customer.io campaigns, segments and customer activity.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://customer.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "marketing",
+  "keywords": [
+    "lifecycle-messaging",
+    "segments",
+    "campaigns"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

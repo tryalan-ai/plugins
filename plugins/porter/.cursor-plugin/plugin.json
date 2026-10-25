@@ -9,11 +9,12 @@
   "homepage": "https://porter.run",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "deployment",
+  "category": "cloud-and-infrastructure",
   "keywords": [
     "hosting",
     "kubernetes",
     "deploys"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

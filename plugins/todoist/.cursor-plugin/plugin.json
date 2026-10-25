@@ -6,7 +6,7 @@
   "author": {
     "name": "Alan"
   },
-  "homepage": "https://github.com/Doist/todoist-mcp",
+  "homepage": "https://www.todoist.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
   "category": "project-management",
@@ -15,5 +15,6 @@
     "tasks",
     "projects"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

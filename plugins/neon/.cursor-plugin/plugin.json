@@ -9,11 +9,12 @@
   "homepage": "https://neon.tech",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "database",
+  "category": "databases-and-backend",
   "keywords": [
     "postgres",
     "database",
     "branches"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

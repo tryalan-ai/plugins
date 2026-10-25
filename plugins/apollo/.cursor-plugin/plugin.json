@@ -1,0 +1,20 @@
+{
+  "name": "apollo",
+  "displayName": "Apollo",
+  "version": "1.0.0",
+  "description": "Search Apollo contacts and companies and manage sequences.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.apollo.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "sales-and-crm",
+  "keywords": [
+    "prospecting",
+    "sales",
+    "enrichment"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

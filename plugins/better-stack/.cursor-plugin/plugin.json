@@ -9,11 +9,12 @@
   "homepage": "https://betterstack.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "monitoring",
+  "category": "observability",
   "keywords": [
     "logs",
     "uptime",
     "incidents"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

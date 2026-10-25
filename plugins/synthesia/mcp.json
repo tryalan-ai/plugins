@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "synthesia": {
+      "type": "http",
+      "url": "https://mcp.synthesia.io/mcp"
+    }
+  }
+}

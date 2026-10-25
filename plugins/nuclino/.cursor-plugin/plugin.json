@@ -9,11 +9,12 @@
   "homepage": "https://www.nuclino.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "knowledge",
+  "category": "knowledge-and-notes",
   "keywords": [
     "wiki",
     "knowledge-base",
     "docs"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

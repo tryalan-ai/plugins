@@ -639,6 +639,266 @@
       "name": "qdrant-docs",
       "source": "plugins/qdrant-docs",
       "description": "Search Qdrant vector database documentation."
+    },
+    {
+      "name": "supermemory",
+      "source": "plugins/supermemory",
+      "description": "Save and search long-term memories and documents across your tools with Supermemory."
+    },
+    {
+      "name": "mem0",
+      "source": "plugins/mem0",
+      "description": "Store and retrieve persistent agent memories with mem0."
+    },
+    {
+      "name": "zep",
+      "source": "plugins/zep",
+      "description": "Search Zep knowledge graphs and long-term memory for users and agents."
+    },
+    {
+      "name": "dust",
+      "source": "plugins/dust",
+      "description": "Run Dust agents and search your company's connected knowledge."
+    },
+    {
+      "name": "heygen",
+      "source": "plugins/heygen",
+      "description": "Create and manage HeyGen AI avatar videos."
+    },
+    {
+      "name": "synthesia",
+      "source": "plugins/synthesia",
+      "description": "Create and manage Synthesia AI videos and templates."
+    },
+    {
+      "name": "runway",
+      "source": "plugins/runway",
+      "description": "Generate images and video with Runway models."
+    },
+    {
+      "name": "mux",
+      "source": "plugins/mux",
+      "description": "Manage Mux video assets, live streams and playback data."
+    },
+    {
+      "name": "voicenotes",
+      "source": "plugins/voicenotes",
+      "description": "Search and create Voicenotes recordings, transcripts and notes."
+    },
+    {
+      "name": "plaud",
+      "source": "plugins/plaud",
+      "description": "Search Plaud recordings, transcripts and summaries."
+    },
+    {
+      "name": "krisp",
+      "source": "plugins/krisp",
+      "description": "Search Krisp meeting notes, transcripts and action items."
+    },
+    {
+      "name": "evernote",
+      "source": "plugins/evernote",
+      "description": "Search and create Evernote notes and notebooks."
+    },
+    {
+      "name": "readwise",
+      "source": "plugins/readwise",
+      "description": "Search Readwise highlights and Reader documents."
+    },
+    {
+      "name": "mem",
+      "source": "plugins/mem",
+      "description": "Search and create notes in Mem."
+    },
+    {
+      "name": "craft",
+      "source": "plugins/craft",
+      "description": "Read and update Craft documents and spaces."
+    },
+    {
+      "name": "capacities",
+      "source": "plugins/capacities",
+      "description": "Search and create objects and notes in Capacities."
+    },
+    {
+      "name": "heptabase",
+      "source": "plugins/heptabase",
+      "description": "Search Heptabase cards, whiteboards and journals."
+    },
+    {
+      "name": "akiflow",
+      "source": "plugins/akiflow",
+      "description": "Manage Akiflow tasks, time blocks and calendar."
+    },
+    {
+      "name": "everhour",
+      "source": "plugins/everhour",
+      "description": "Track and report time in Everhour across projects and tasks."
+    },
+    {
+      "name": "harvest",
+      "source": "plugins/harvest",
+      "description": "Track time and review projects, invoices and reports in Harvest."
+    },
+    {
+      "name": "productive",
+      "source": "plugins/productive",
+      "description": "Manage Productive projects, tasks, time and budgets."
+    },
+    {
+      "name": "calendly",
+      "source": "plugins/calendly",
+      "description": "Check availability and manage Calendly event types and bookings."
+    },
+    {
+      "name": "typeform",
+      "source": "plugins/typeform",
+      "description": "Create Typeform forms and read their responses."
+    },
+    {
+      "name": "jotform",
+      "source": "plugins/jotform",
+      "description": "Create Jotform forms and read their submissions."
+    },
+    {
+      "name": "make",
+      "source": "plugins/make",
+      "description": "Run and manage Make scenarios across connected apps."
+    },
+    {
+      "name": "jam",
+      "source": "plugins/jam",
+      "description": "Read Jam bug reports with console logs, network requests and repro steps."
+    },
+    {
+      "name": "bugherd",
+      "source": "plugins/bugherd",
+      "description": "Read and update BugHerd website feedback and bug tasks."
+    },
+    {
+      "name": "userback",
+      "source": "plugins/userback",
+      "description": "Read Userback user feedback, bug reports and session replays."
+    },
+    {
+      "name": "featurebase",
+      "source": "plugins/featurebase",
+      "description": "Read and update Featurebase feedback, roadmap and changelog posts."
+    },
+    {
+      "name": "wix",
+      "source": "plugins/wix",
+      "description": "Manage Wix sites, pages, content and business apps."
+    },
+    {
+      "name": "namecheap",
+      "source": "plugins/namecheap",
+      "description": "Search, register and manage Namecheap domains and DNS."
+    },
+    {
+      "name": "porkbun",
+      "source": "plugins/porkbun",
+      "description": "Search, register and manage Porkbun domains and DNS."
+    },
+    {
+      "name": "brex",
+      "source": "plugins/brex",
+      "description": "Review Brex expenses, cards, budgets and transactions."
+    },
+    {
+      "name": "gusto",
+      "source": "plugins/gusto",
+      "description": "Read Gusto employees, payroll and time-off information."
+    },
+    {
+      "name": "greenhouse",
+      "source": "plugins/greenhouse",
+      "description": "Search Greenhouse jobs, candidates, applications and interviews."
+    },
+    {
+      "name": "ashby",
+      "source": "plugins/ashby",
+      "description": "Search Ashby jobs, candidates and interview pipelines."
+    },
+    {
+      "name": "workable",
+      "source": "plugins/workable",
+      "description": "Search Workable jobs, candidates and hiring stages."
+    },
+    {
+      "name": "juicebox",
+      "source": "plugins/juicebox",
+      "description": "Search for candidates and manage talent pipelines with Juicebox."
+    },
+    {
+      "name": "affinity",
+      "source": "plugins/affinity",
+      "description": "Search Affinity relationships, organizations, deals and notes."
+    },
+    {
+      "name": "apollo",
+      "source": "plugins/apollo",
+      "description": "Search Apollo contacts and companies and manage sequences."
+    },
+    {
+      "name": "outreach",
+      "source": "plugins/outreach",
+      "description": "Read and manage Outreach prospects, sequences and activity."
+    },
+    {
+      "name": "lemlist",
+      "source": "plugins/lemlist",
+      "description": "Manage lemlist campaigns, leads and outreach sequences."
+    },
+    {
+      "name": "smartlead",
+      "source": "plugins/smartlead",
+      "description": "Manage Smartlead cold email campaigns, leads and analytics."
+    },
+    {
+      "name": "amplemarket",
+      "source": "plugins/amplemarket",
+      "description": "Find leads and manage Amplemarket sequences and accounts."
+    },
+    {
+      "name": "clay",
+      "source": "plugins/clay",
+      "description": "Enrich companies and people and work with Clay tables."
+    },
+    {
+      "name": "klaviyo",
+      "source": "plugins/klaviyo",
+      "description": "Read Klaviyo campaigns, flows, segments and performance."
+    },
+    {
+      "name": "beehiiv",
+      "source": "plugins/beehiiv",
+      "description": "Manage beehiiv newsletter posts, subscribers and analytics."
+    },
+    {
+      "name": "mailerlite",
+      "source": "plugins/mailerlite",
+      "description": "Manage MailerLite subscribers, groups and campaigns."
+    },
+    {
+      "name": "customer-io",
+      "source": "plugins/customer-io",
+      "description": "Read Customer.io campaigns, segments and customer activity."
+    },
+    {
+      "name": "meltwater",
+      "source": "plugins/meltwater",
+      "description": "Search Meltwater media coverage, mentions and social listening."
+    },
+    {
+      "name": "profound",
+      "source": "plugins/profound",
+      "description": "Track how your brand appears in AI search answers with Profound."
+    },
+    {
+      "name": "similarweb",
+      "source": "plugins/similarweb",
+      "description": "Research website traffic, rankings and competitors with Similarweb."
     }
   ]
 }

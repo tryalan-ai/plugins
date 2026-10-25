@@ -1,0 +1,20 @@
+{
+  "name": "supermemory",
+  "displayName": "Supermemory",
+  "version": "1.0.0",
+  "description": "Save and search long-term memories and documents across your tools with Supermemory.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://supermemory.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai-and-memory",
+  "keywords": [
+    "memory",
+    "knowledge",
+    "rag"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

@@ -9,11 +9,12 @@
   "homepage": "https://upstash.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "database",
+  "category": "databases-and-backend",
   "keywords": [
     "redis",
     "queues",
     "serverless"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

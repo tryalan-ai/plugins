@@ -9,11 +9,12 @@
   "homepage": "https://axiom.co",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "monitoring",
+  "category": "observability",
   "keywords": [
     "logs",
     "observability",
     "events"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

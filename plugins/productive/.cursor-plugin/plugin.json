@@ -1,0 +1,20 @@
+{
+  "name": "productive",
+  "displayName": "Productive",
+  "version": "1.0.0",
+  "description": "Manage Productive projects, tasks, time and budgets.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://productive.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "agency",
+    "projects",
+    "budgets"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

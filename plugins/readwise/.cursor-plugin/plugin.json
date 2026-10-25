@@ -1,0 +1,20 @@
+{
+  "name": "readwise",
+  "displayName": "Readwise",
+  "version": "1.0.0",
+  "description": "Search Readwise highlights and Reader documents.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://readwise.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "knowledge-and-notes",
+  "keywords": [
+    "highlights",
+    "reading",
+    "knowledge"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

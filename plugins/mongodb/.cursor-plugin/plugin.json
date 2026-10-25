@@ -9,11 +9,12 @@
   "homepage": "https://www.mongodb.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "database",
+  "category": "databases-and-backend",
   "keywords": [
     "mongodb",
     "atlas",
     "nosql"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

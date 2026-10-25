@@ -9,11 +9,12 @@
   "homepage": "https://attio.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "crm",
+  "category": "sales-and-crm",
   "keywords": [
     "crm",
     "customers",
     "deals"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -9,11 +9,12 @@
   "homepage": "https://planetscale.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "database",
+  "category": "databases-and-backend",
   "keywords": [
     "mysql",
     "postgres",
     "branches"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

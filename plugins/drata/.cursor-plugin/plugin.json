@@ -9,11 +9,12 @@
   "homepage": "https://drata.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "security",
+  "category": "security-and-compliance",
   "keywords": [
     "compliance",
     "soc2",
     "controls"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

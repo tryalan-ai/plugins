@@ -30,6 +30,10 @@ Create one app per vendor (per environment where noted), then add it to Alan's `
 | Chargebee | `https://mcp.chargebee.com` | Chargebee | Chargebee OAuth app |
 | Hygraph | `https://mcp.hygraph.com/mcp/` | Hygraph | Hygraph OAuth app |
 | Arize | `https://api.arize.com/mcp` | Arize | Arize OAuth app |
+| Xero | `https://mcp.xero.com` | Xero | Xero developer app |
+| YouTrack | `https://mcp.youtrack.cloud` | JetBrains | JetBrains Hub OAuth app |
+| Lindy | `https://mcp.lindy.ai` | Lindy | Lindy OAuth app |
+| Pitch | `https://mcp.pitch.com` | Pitch | Pitch OAuth app |
 
 ## Needs vendor approval
 
@@ -48,6 +52,16 @@ These vendors only accept clients on their own allowlist. Apply as Alan with the
 | Qase | "The selected redirect_uris is invalid" | Qase support |
 | RunPod | "redirect_uri is not allowed" | RunPod support |
 | Retool | Authorize endpoint returns `404` for Alan's client | Retool support |
+| Asana (`mcp.asana.com/mcp`) | "One or more redirect URIs are not allowed" | Asana developer support; the v2 endpoint needs an Alan app instead |
+| Gamma | "redirect_uri not allowed" | Gamma support |
+| Semrush | Redirect URI not allowed | Semrush support |
+| Salesloft | "redirect_uris must belong to an allowed domain" | Salesloft support |
+| Upwork | Redirect URIs rejected | Upwork support |
+| IFTTT | "redirect_uris are not authorized" | IFTTT support |
+| Float | Redirect URI rejected | Float support |
+| Buffer, Instantly | Public client registration refused | Vendor support |
+| Relevance AI | Loopback redirects only | A desktop loopback callback would work |
+| Sprout Social | Authorize request rejected | Vendor support |
 
 ## Needs investigation
 
@@ -60,6 +74,9 @@ These vendors only accept clients on their own allowlist. Apply as Alan with the
 | Weights & Biases, Langfuse, Tinybird, SonarQube Cloud, Appsmith, Kinde, Optimizely, Rippling | `401` with no usable OAuth metadata | Confirm API-key header format |
 | Gong | Registration requires a `scope`, which Alan's registration does not send | Send the resource's advertised scopes during dynamic registration |
 | Browserbase, Firecrawl, Greptile, LambdaTest, PromptLayer, Courier, Zenhub | Initialize and tool listing work without auth, but the tools act on an account | Confirm how each expects its API key before listing |
+| Ahrefs, QuickBooks | Bot protection answered the probe's authorize request; a real browser may pass | Connect once from a browser |
+| TinyFish | Rate limited during the probe | Retry |
+| Copper, Freshdesk | `401` with no OAuth metadata | Confirm API-key header format |
 
 ## No hosted MCP server found
 

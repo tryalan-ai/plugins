@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dust": {
+      "type": "http",
+      "url": "https://dust.tt/mcp"
+    }
+  }
+}

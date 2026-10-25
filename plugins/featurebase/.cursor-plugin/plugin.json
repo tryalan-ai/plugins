@@ -1,0 +1,20 @@
+{
+  "name": "featurebase",
+  "displayName": "Featurebase",
+  "version": "1.0.0",
+  "description": "Read and update Featurebase feedback, roadmap and changelog posts.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.featurebase.app",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "feedback",
+    "roadmap",
+    "changelog"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

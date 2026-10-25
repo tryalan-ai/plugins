@@ -9,11 +9,12 @@
   "homepage": "https://supabase.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "database",
+  "category": "databases-and-backend",
   "keywords": [
     "postgres",
     "database",
     "auth"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

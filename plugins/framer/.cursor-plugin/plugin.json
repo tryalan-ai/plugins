@@ -15,5 +15,6 @@
     "design",
     "cms"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

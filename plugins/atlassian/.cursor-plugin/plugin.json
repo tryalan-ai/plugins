@@ -15,5 +15,6 @@
     "confluence",
     "issues"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

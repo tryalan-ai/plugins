@@ -9,11 +9,12 @@
   "homepage": "https://turso.tech",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "database",
+  "category": "databases-and-backend",
   "keywords": [
     "sqlite",
     "libsql",
     "edge-database"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

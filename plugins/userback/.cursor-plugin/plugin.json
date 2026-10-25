@@ -1,0 +1,20 @@
+{
+  "name": "userback",
+  "displayName": "Userback",
+  "version": "1.0.0",
+  "description": "Read Userback user feedback, bug reports and session replays.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://userback.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "testing-and-qa",
+  "keywords": [
+    "feedback",
+    "bug-reports",
+    "session-replay"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

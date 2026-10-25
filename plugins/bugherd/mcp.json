@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bugherd": {
+      "type": "http",
+      "url": "https://mcp.bugherd.com/mcp"
+    }
+  }
+}

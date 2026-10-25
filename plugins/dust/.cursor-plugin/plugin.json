@@ -1,0 +1,20 @@
+{
+  "name": "dust",
+  "displayName": "Dust",
+  "version": "1.0.0",
+  "description": "Run Dust agents and search your company's connected knowledge.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://dust.tt",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai-and-memory",
+  "keywords": [
+    "agents",
+    "enterprise-search",
+    "knowledge"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

@@ -9,11 +9,12 @@
   "homepage": "https://www.netlify.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "deployment",
+  "category": "cloud-and-infrastructure",
   "keywords": [
     "hosting",
     "deploys",
     "jamstack"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

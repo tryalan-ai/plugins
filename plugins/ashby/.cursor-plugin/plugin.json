@@ -1,0 +1,20 @@
+{
+  "name": "ashby",
+  "displayName": "Ashby",
+  "version": "1.0.0",
+  "description": "Search Ashby jobs, candidates and interview pipelines.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.ashbyhq.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "hr-and-recruiting",
+  "keywords": [
+    "recruiting",
+    "ats",
+    "hiring"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

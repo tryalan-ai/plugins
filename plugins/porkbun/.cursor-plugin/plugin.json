@@ -1,0 +1,20 @@
+{
+  "name": "porkbun",
+  "displayName": "Porkbun",
+  "version": "1.0.0",
+  "description": "Search, register and manage Porkbun domains and DNS.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://porkbun.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "cloud-and-infrastructure",
+  "keywords": [
+    "domains",
+    "dns",
+    "registrar"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

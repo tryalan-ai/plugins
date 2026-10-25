@@ -9,11 +9,12 @@
   "homepage": "https://momentic.ai",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "testing",
+  "category": "testing-and-qa",
   "keywords": [
     "e2e-testing",
     "ai-testing",
     "quality"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -15,5 +15,6 @@
     "projects",
     "docs"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

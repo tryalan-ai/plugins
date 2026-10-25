@@ -9,11 +9,12 @@
   "homepage": "https://rootly.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "incident-management",
+  "category": "observability",
   "keywords": [
     "incidents",
     "on-call",
     "postmortems"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }
