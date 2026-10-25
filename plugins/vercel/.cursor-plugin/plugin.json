@@ -9,11 +9,12 @@
   "homepage": "https://vercel.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "deployment",
+  "category": "cloud-and-infrastructure",
   "keywords": [
     "deployments",
     "hosting",
     "logs"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

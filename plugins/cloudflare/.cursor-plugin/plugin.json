@@ -9,11 +9,12 @@
   "homepage": "https://www.cloudflare.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "deployment",
+  "category": "cloud-and-infrastructure",
   "keywords": [
     "workers",
     "edge",
     "logs"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

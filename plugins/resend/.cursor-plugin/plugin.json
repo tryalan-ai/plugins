@@ -9,11 +9,12 @@
   "homepage": "https://resend.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "development",
+  "category": "developer-apis",
   "keywords": [
     "email",
     "transactional",
     "templates"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -9,11 +9,12 @@
   "homepage": "https://www.datadoghq.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "monitoring",
+  "category": "observability",
   "keywords": [
     "observability",
     "logs",
     "apm"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -9,11 +9,12 @@
   "homepage": "https://gitlab.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "development",
+  "category": "code-and-ci",
   "keywords": [
     "git",
     "merge-requests",
     "ci"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -15,5 +15,6 @@
     "spreadsheets",
     "records"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -1,0 +1,20 @@
+{
+  "name": "plaud",
+  "displayName": "Plaud",
+  "version": "1.0.0",
+  "description": "Search Plaud recordings, transcripts and summaries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.plaud.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "recordings",
+    "transcripts",
+    "summaries"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

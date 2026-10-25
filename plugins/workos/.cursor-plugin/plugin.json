@@ -9,11 +9,12 @@
   "homepage": "https://workos.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "auth",
+  "category": "databases-and-backend",
   "keywords": [
     "sso",
     "authentication",
     "directory-sync"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -9,11 +9,12 @@
   "homepage": "https://www.folk.app",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "crm",
+  "category": "sales-and-crm",
   "keywords": [
     "crm",
     "contacts",
     "pipelines"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

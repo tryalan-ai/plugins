@@ -1,0 +1,20 @@
+{
+  "name": "profound",
+  "displayName": "Profound",
+  "version": "1.0.0",
+  "description": "Track how your brand appears in AI search answers with Profound.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.tryprofound.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "marketing",
+  "keywords": [
+    "ai-search",
+    "seo",
+    "brand-visibility"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

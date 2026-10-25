@@ -1,0 +1,20 @@
+{
+  "name": "zep",
+  "displayName": "Zep",
+  "version": "1.0.0",
+  "description": "Search Zep knowledge graphs and long-term memory for users and agents.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.getzep.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai-and-memory",
+  "keywords": [
+    "memory",
+    "knowledge-graph",
+    "agents"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

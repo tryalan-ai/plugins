@@ -9,11 +9,12 @@
   "homepage": "https://exa.ai",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "research",
+  "category": "docs-and-research",
   "keywords": [
     "web-search",
     "research",
     "code-search"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

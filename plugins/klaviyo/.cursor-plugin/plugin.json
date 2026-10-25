@@ -1,0 +1,20 @@
+{
+  "name": "klaviyo",
+  "displayName": "Klaviyo",
+  "version": "1.0.0",
+  "description": "Read Klaviyo campaigns, flows, segments and performance.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.klaviyo.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "marketing",
+  "keywords": [
+    "email-marketing",
+    "segments",
+    "campaigns"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

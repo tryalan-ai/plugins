@@ -9,11 +9,12 @@
   "homepage": "https://www.getguru.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "knowledge",
+  "category": "knowledge-and-notes",
   "keywords": [
     "knowledge-base",
     "wiki",
     "search"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

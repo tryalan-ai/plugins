@@ -15,5 +15,6 @@
     "to-dos",
     "teams"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

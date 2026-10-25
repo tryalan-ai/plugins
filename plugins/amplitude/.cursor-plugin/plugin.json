@@ -9,11 +9,12 @@
   "homepage": "https://amplitude.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "analytics",
+  "category": "analytics-and-experiments",
   "keywords": [
     "product-analytics",
     "events",
     "experiments"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

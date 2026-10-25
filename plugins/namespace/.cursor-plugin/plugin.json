@@ -9,11 +9,12 @@
   "homepage": "https://namespace.so",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "development",
+  "category": "code-and-ci",
   "keywords": [
     "ci",
     "runners",
     "builds"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -15,5 +15,6 @@
     "recordings",
     "action-items"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

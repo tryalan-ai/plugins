@@ -9,11 +9,12 @@
   "homepage": "https://knock.app",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "development",
+  "category": "developer-apis",
   "keywords": [
     "notifications",
     "messaging",
     "workflows"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -9,11 +9,12 @@
   "homepage": "https://www.pulumi.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "infrastructure",
+  "category": "cloud-and-infrastructure",
   "keywords": [
     "infrastructure-as-code",
     "cloud",
     "stacks"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

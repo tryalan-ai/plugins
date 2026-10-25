@@ -9,11 +9,12 @@
   "homepage": "https://www.perplexity.ai",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "research",
+  "category": "docs-and-research",
   "keywords": [
     "web-search",
     "research",
     "citations"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

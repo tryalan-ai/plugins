@@ -9,11 +9,12 @@
   "homepage": "https://www.mabl.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "testing",
+  "category": "testing-and-qa",
   "keywords": [
     "test-automation",
     "e2e-testing",
     "quality"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

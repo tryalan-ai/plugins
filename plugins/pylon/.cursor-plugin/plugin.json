@@ -15,5 +15,6 @@
     "b2b",
     "tickets"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

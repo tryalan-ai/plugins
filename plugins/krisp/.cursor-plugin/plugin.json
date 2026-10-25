@@ -1,0 +1,20 @@
+{
+  "name": "krisp",
+  "displayName": "Krisp",
+  "version": "1.0.0",
+  "description": "Search Krisp meeting notes, transcripts and action items.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://krisp.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "transcripts",
+    "action-items"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

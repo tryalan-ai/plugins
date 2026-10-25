@@ -9,11 +9,12 @@
   "homepage": "https://qdrant.tech",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "docs",
+  "category": "docs-and-research",
   "keywords": [
     "vector-database",
     "documentation",
     "search"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

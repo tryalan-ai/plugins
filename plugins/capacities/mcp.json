@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "capacities": {
+      "type": "http",
+      "url": "https://api.capacities.io/mcp"
+    }
+  }
+}

@@ -9,11 +9,12 @@
   "homepage": "https://www.notion.so",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "docs",
+  "category": "knowledge-and-notes",
   "keywords": [
     "docs",
     "wiki",
     "databases"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

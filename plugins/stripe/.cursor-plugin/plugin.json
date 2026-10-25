@@ -9,10 +9,11 @@
   "homepage": "https://stripe.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "payments",
+  "category": "payments-and-finance",
   "keywords": [
     "payments",
     "billing"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

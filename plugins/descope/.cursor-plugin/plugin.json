@@ -9,11 +9,12 @@
   "homepage": "https://www.descope.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "auth",
+  "category": "databases-and-backend",
   "keywords": [
     "authentication",
     "users",
     "tenants"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

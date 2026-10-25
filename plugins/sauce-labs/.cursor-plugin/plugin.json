@@ -9,11 +9,12 @@
   "homepage": "https://saucelabs.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "testing",
+  "category": "testing-and-qa",
   "keywords": [
     "cross-browser",
     "mobile-testing",
     "test-runs"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

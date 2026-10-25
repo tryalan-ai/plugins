@@ -9,11 +9,12 @@
   "homepage": "https://railway.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "deployment",
+  "category": "cloud-and-infrastructure",
   "keywords": [
     "hosting",
     "deploys",
     "infrastructure"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

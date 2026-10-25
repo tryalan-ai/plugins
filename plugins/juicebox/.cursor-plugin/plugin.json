@@ -1,0 +1,20 @@
+{
+  "name": "juicebox",
+  "displayName": "Juicebox",
+  "version": "1.0.0",
+  "description": "Search for candidates and manage talent pipelines with Juicebox.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://juicebox.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "hr-and-recruiting",
+  "keywords": [
+    "sourcing",
+    "recruiting",
+    "talent"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

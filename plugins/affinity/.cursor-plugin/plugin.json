@@ -1,0 +1,20 @@
+{
+  "name": "affinity",
+  "displayName": "Affinity",
+  "version": "1.0.0",
+  "description": "Search Affinity relationships, organizations, deals and notes.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.affinity.co",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "sales-and-crm",
+  "keywords": [
+    "crm",
+    "relationships",
+    "venture"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

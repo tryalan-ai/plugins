@@ -14,5 +14,6 @@
     "whiteboard",
     "diagrams"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

@@ -9,12 +9,13 @@
   "homepage": "https://github.com/tryalan-ai/plugins",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "research",
+  "category": "docs-and-research",
   "keywords": [
     "docs",
     "libraries",
     "research"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json",
   "skills": "./skills/"
 }

@@ -1,0 +1,20 @@
+{
+  "name": "greenhouse",
+  "displayName": "Greenhouse",
+  "version": "1.0.0",
+  "description": "Search Greenhouse jobs, candidates, applications and interviews.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.greenhouse.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "hr-and-recruiting",
+  "keywords": [
+    "recruiting",
+    "ats",
+    "hiring"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

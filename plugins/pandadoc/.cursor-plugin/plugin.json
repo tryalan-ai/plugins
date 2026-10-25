@@ -15,5 +15,6 @@
     "contracts",
     "e-signature"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

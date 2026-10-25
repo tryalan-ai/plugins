@@ -15,5 +15,6 @@
     "transcripts",
     "requirements"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }

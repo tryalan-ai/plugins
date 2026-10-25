@@ -9,11 +9,12 @@
   "homepage": "https://www.postman.com",
   "repository": "https://github.com/tryalan-ai/plugins",
   "license": "MIT",
-  "category": "testing",
+  "category": "testing-and-qa",
   "keywords": [
     "api",
     "testing",
     "collections"
   ],
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"
 }
