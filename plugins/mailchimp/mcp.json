@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mailchimp": {
+      "type": "http",
+      "url": "https://ai-inc.mailchimp.com/claude/mcp/v2"
+    }
+  }
+}

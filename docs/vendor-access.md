@@ -78,6 +78,14 @@ These vendors only accept clients on their own allowlist. Apply as Alan with the
 | TinyFish | Rate limited during the probe | Retry |
 | Copper, Freshdesk | `401` with no OAuth metadata | Confirm API-key header format |
 
+## Claude connector directory (2026-10-25)
+
+Checked against Alan's production callback. Connectors hosted on `claude.com` or on Claude-specific paths are Anthropic's own and are not listed in Alan.
+
+- **Rejected Alan's callback or registration (41):** Adobe Experience Manager, Adobe Journey Optimizer, Adobe Marketing Agent, Adobe for creativity, Ahrefs, Airwallex Developer, Alma, Base44, Candid, Canva, Coupler.io, Datasite, DevRev, Figma, Gamma, GovTribe, Harness.io, IFTTT, Intercom, Klarity, LSEG, LegalZoom, Local Falcon, Lorikeet, Lusha, MSCI, Moody's, Omni Analytics, PitchBook Premium, Polar Analytics, Quartr, Semrush, SignNow, SurveyMonkey, Tango, Third Bridge, Trimble SketchUp, Tropic, Verisk XactRestore, Yardi Virtuoso, ZoomInfo.
+- **Need an Alan OAuth app (31):** Asana, Autodesk Product Help, Bigdata.com, Box, D&B Risk Analytics, DocuSeal, Docusign, Dovetail, Everlaw, FMP, G2, Gmail, Google Calendar, Google Cloud BigQuery, Google Compute Engine, Google Drive, Guidepoint, Harvey, Instacart, Owkin, PagerDuty, Shopify, Slack, Solve Intelligence, Spotify, Thumbtack, Uber, Uber Eats, Verisk Underwriting Intelligence, Xero, Zoom for Claude.
+- **No OAuth metadata; likely API key (13):** Audible, Benevity, Booking.com, DirectBooker, Expedia, Glovo, ICE Data Services, Intuit QuickBooks, Intuit TurboTax, Learning Commons Knowledge Graph, Resy, StubHub, Wyndham Hotels and Resorts.
+
 ## No hosted MCP server found
 
 Snyk, ElevenLabs, Loom and Microsoft 365 (Outlook, Teams, SharePoint, OneDrive) had no reachable hosted server at the URLs tried. Cursor serves Microsoft 365 through its own gateway, which does not work from Alan.

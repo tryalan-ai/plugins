@@ -1,0 +1,18 @@
+{
+  "name": "twilio",
+  "displayName": "Twilio",
+  "version": "1.0.0",
+  "description": "Build powerful communications and customer engagement.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://twilio.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "developer-apis",
+  "keywords": [
+    "developer-apis"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

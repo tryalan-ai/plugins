@@ -1,0 +1,18 @@
+{
+  "name": "midpage",
+  "displayName": "Midpage Legal Research",
+  "version": "1.0.0",
+  "description": "Conduct legal research and create work product.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.midpage.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "legal",
+  "keywords": [
+    "legal"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

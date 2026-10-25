@@ -1,0 +1,18 @@
+{
+  "name": "cb-insights",
+  "displayName": "CB Insights",
+  "version": "1.0.0",
+  "description": "Predictive intelligence on private companies.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.cbinsights.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs-and-research",
+  "keywords": [
+    "docs-and-research"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

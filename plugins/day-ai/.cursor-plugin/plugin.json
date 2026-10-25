@@ -1,0 +1,18 @@
+{
+  "name": "day-ai",
+  "displayName": "Day AI",
+  "version": "1.0.0",
+  "description": "Know everything about your prospects & customers with CRMx.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://day.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "sales-and-crm",
+  "keywords": [
+    "sales-and-crm"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}
