@@ -1,0 +1,20 @@
+{
+  "name": "swagger",
+  "displayName": "Swagger",
+  "version": "1.0.0",
+  "description": "Design, document and govern APIs with SmartBear Swagger.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://swagger.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "developer-apis",
+  "keywords": [
+    "openapi",
+    "api-design",
+    "documentation"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

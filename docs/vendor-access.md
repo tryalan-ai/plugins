@@ -86,6 +86,18 @@ Checked against Alan's production callback. Connectors hosted on `claude.com` or
 - **Need an Alan OAuth app (31):** Asana, Autodesk Product Help, Bigdata.com, Box, D&B Risk Analytics, DocuSeal, Docusign, Dovetail, Everlaw, FMP, G2, Gmail, Google Calendar, Google Cloud BigQuery, Google Compute Engine, Google Drive, Guidepoint, Harvey, Instacart, Owkin, PagerDuty, Shopify, Slack, Solve Intelligence, Spotify, Thumbtack, Uber, Uber Eats, Verisk Underwriting Intelligence, Xero, Zoom for Claude.
 - **No OAuth metadata; likely API key (13):** Audible, Benevity, Booking.com, DirectBooker, Expedia, Glovo, ICE Data Services, Intuit QuickBooks, Intuit TurboTax, Learning Commons Knowledge Graph, Resy, StubHub, Wyndham Hotels and Resorts.
 
+## Devin catalog gaps (2026-10-25)
+
+- **Rejected Alan's callback:** Aiven (host not allowed), Browserless, CodSpeed, Lovable (loopback or allowlisted only), CircleCI (loopback only). New Relic's `mcp.newrelic.com/mcp/` still returns `invalid_request`.
+- **Need confirmation:** DataHub (`403`), Raindrop (`401` without OAuth metadata).
+- **Need per-customer URLs:** Chronosphere, Dynatrace, Elastic, Splunk, CockroachDB (cluster header). Alan cannot substitute URL variables yet.
+- **Local command servers:** dbt, Playwright, Docker Hub, SonarQube, Unleash, Pinecone, Firecrawl, Metabase, Cortex, Google Analytics, AWS agent toolkit and Azure run as local processes. The plugin gateway serves remote servers only.
+- **Microsoft 365:** Devin and Cursor each run their own Microsoft 365 gateway; Microsoft publishes no remote MCP server Alan can use.
+
+## Removed to keep the catalog focused (2026-10-25)
+
+The marketplace targets engineering, product and company tools, like Cursor's and Devin's. These connected fine but were removed because neither Cursor nor Devin lists them and they sit outside that scope: AdisInsight, Affinity, Aiera, AirOps, Akiflow, BioRender, Bitly, Cal.com, Carta, CB Insights, Clarify, Close, Common Room, Consensus, CourtListener, Crossbeam, Day AI, Definely, Descrybe Legal Engine, Digits, Egnyte, Everhour, FactSet AI-Ready Data, folk, Gainsight (Staircase AI), Harmonic, Harvest, HeyGen, IBISWorld, iManage Work, Intuit Mailchimp, Legal Data Hunter, lemlist, LILT, Lumin, Medidata, Metaview, Midpage Legal Research, Morningstar, Motion Creative Analytics, Open Targets, PandaDoc, Process Street, Rillet, Runway, Scholar Gateway, Scite, Send, Shapes, Smartlead, Superhuman Mail, Sybill, Synapse.org, Synthesia, Tally, Twenty, Udemy Business.
+
 ## No hosted MCP server found
 
 Snyk, ElevenLabs, Loom and Microsoft 365 (Outlook, Teams, SharePoint, OneDrive) had no reachable hosted server at the URLs tried. Cursor serves Microsoft 365 through its own gateway, which does not work from Alan.

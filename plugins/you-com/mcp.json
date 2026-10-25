@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "you-com": {
+      "type": "http",
+      "url": "https://api.you.com/mcp"
+    }
+  }
+}

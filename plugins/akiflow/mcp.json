@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "akiflow": {
-      "type": "http",
-      "url": "https://mcp.akiflow.com/mcp"
-    }
-  }
-}

@@ -381,11 +381,6 @@
       "description": "Read and update Builder.io content, pages and design components."
     },
     {
-      "name": "cal-com",
-      "source": "plugins/cal-com",
-      "description": "Check availability and manage Cal.com bookings and event types."
-    },
-    {
       "name": "chromatic",
       "source": "plugins/chromatic",
       "description": "Review Chromatic visual test builds, changes and Storybook components."
@@ -394,11 +389,6 @@
       "name": "clerk",
       "source": "plugins/clerk",
       "description": "Manage Clerk users, organizations, sessions and auth settings."
-    },
-    {
-      "name": "close",
-      "source": "plugins/close",
-      "description": "Search and update Close leads, contacts, opportunities and activities."
     },
     {
       "name": "cronitor",
@@ -449,11 +439,6 @@
       "name": "flagsmith",
       "source": "plugins/flagsmith",
       "description": "Create and update Flagsmith feature flags, segments and environments."
-    },
-    {
-      "name": "folk",
-      "source": "plugins/folk",
-      "description": "Search and update folk contacts, companies and pipelines."
     },
     {
       "name": "gitbook",
@@ -516,11 +501,6 @@
       "description": "Manage Paddle products, prices, customers, subscriptions and transactions."
     },
     {
-      "name": "pandadoc",
-      "source": "plugins/pandadoc",
-      "description": "Create and track PandaDoc documents, templates and contracts."
-    },
-    {
       "name": "perplexity",
       "source": "plugins/perplexity",
       "description": "Search the web with Perplexity for cited, current answers."
@@ -576,11 +556,6 @@
       "description": "Search Supernormal meeting notes, summaries and action items."
     },
     {
-      "name": "tally",
-      "source": "plugins/tally",
-      "description": "Create Tally forms and read their submissions."
-    },
-    {
       "name": "tavily",
       "source": "plugins/tavily",
       "description": "Search and extract web content with Tavily for current information."
@@ -594,11 +569,6 @@
       "name": "turso",
       "source": "plugins/turso",
       "description": "Manage Turso databases and groups and run SQL queries."
-    },
-    {
-      "name": "twenty",
-      "source": "plugins/twenty",
-      "description": "Search and update Twenty CRM people, companies and opportunities."
     },
     {
       "name": "upstash",
@@ -661,21 +631,6 @@
       "description": "Run Dust agents and search your company's connected knowledge."
     },
     {
-      "name": "heygen",
-      "source": "plugins/heygen",
-      "description": "Create and manage HeyGen AI avatar videos."
-    },
-    {
-      "name": "synthesia",
-      "source": "plugins/synthesia",
-      "description": "Create and manage Synthesia AI videos and templates."
-    },
-    {
-      "name": "runway",
-      "source": "plugins/runway",
-      "description": "Generate images and video with Runway models."
-    },
-    {
       "name": "mux",
       "source": "plugins/mux",
       "description": "Manage Mux video assets, live streams and playback data."
@@ -724,21 +679,6 @@
       "name": "heptabase",
       "source": "plugins/heptabase",
       "description": "Search Heptabase cards, whiteboards and journals."
-    },
-    {
-      "name": "akiflow",
-      "source": "plugins/akiflow",
-      "description": "Manage Akiflow tasks, time blocks and calendar."
-    },
-    {
-      "name": "everhour",
-      "source": "plugins/everhour",
-      "description": "Track and report time in Everhour across projects and tasks."
-    },
-    {
-      "name": "harvest",
-      "source": "plugins/harvest",
-      "description": "Track time and review projects, invoices and reports in Harvest."
     },
     {
       "name": "productive",
@@ -831,11 +771,6 @@
       "description": "Search for candidates and manage talent pipelines with Juicebox."
     },
     {
-      "name": "affinity",
-      "source": "plugins/affinity",
-      "description": "Search Affinity relationships, organizations, deals and notes."
-    },
-    {
       "name": "apollo",
       "source": "plugins/apollo",
       "description": "Search Apollo contacts and companies and manage sequences."
@@ -844,16 +779,6 @@
       "name": "outreach",
       "source": "plugins/outreach",
       "description": "Read and manage Outreach prospects, sequences and activity."
-    },
-    {
-      "name": "lemlist",
-      "source": "plugins/lemlist",
-      "description": "Manage lemlist campaigns, leads and outreach sequences."
-    },
-    {
-      "name": "smartlead",
-      "source": "plugins/smartlead",
-      "description": "Manage Smartlead cold email campaigns, leads and analytics."
     },
     {
       "name": "amplemarket",
@@ -981,36 +906,6 @@
       "description": "Inject precise, real-time computation and knowledge."
     },
     {
-      "name": "superhuman-mail",
-      "source": "plugins/superhuman-mail",
-      "description": "The most productive email app ever, for Gmail & Outlook."
-    },
-    {
-      "name": "egnyte",
-      "source": "plugins/egnyte",
-      "description": "Securely access and analyze Egnyte content."
-    },
-    {
-      "name": "bitly",
-      "source": "plugins/bitly",
-      "description": "Shorten links, generate QR Codes, and track performance."
-    },
-    {
-      "name": "send",
-      "source": "plugins/send",
-      "description": "Create shareable documents, one-pagers, and decks."
-    },
-    {
-      "name": "lumin",
-      "source": "plugins/lumin",
-      "description": "Manage documents, send signature requests, and convert Markdown to PDF."
-    },
-    {
-      "name": "process-street",
-      "source": "plugins/process-street",
-      "description": "Explore and update your Process Street data."
-    },
-    {
       "name": "unthread",
       "source": "plugins/unthread",
       "description": "Manage and automate your support tickets."
@@ -1036,56 +931,6 @@
       "description": "Put your meetings to work."
     },
     {
-      "name": "metaview",
-      "source": "plugins/metaview",
-      "description": "The AI platform for recruiting."
-    },
-    {
-      "name": "shapes",
-      "source": "plugins/shapes",
-      "description": "Analyse your live people data, right in Claude."
-    },
-    {
-      "name": "clarify",
-      "source": "plugins/clarify",
-      "description": "Query your CRM. Create records. Ask anything."
-    },
-    {
-      "name": "day-ai",
-      "source": "plugins/day-ai",
-      "description": "Know everything about your prospects & customers with CRMx."
-    },
-    {
-      "name": "common-room",
-      "source": "plugins/common-room",
-      "description": "Your GTM Copilot."
-    },
-    {
-      "name": "crossbeam",
-      "source": "plugins/crossbeam",
-      "description": "Explore partner data and ecosystem insights in Claude."
-    },
-    {
-      "name": "sybill",
-      "source": "plugins/sybill",
-      "description": "Ask AI about your sales calls, deals & pipeline."
-    },
-    {
-      "name": "harmonic",
-      "source": "plugins/harmonic",
-      "description": "Discover, research, and enrich companies and people."
-    },
-    {
-      "name": "gainsight-staircase",
-      "source": "plugins/gainsight-staircase",
-      "description": "Power AI Workflows with Customer Context."
-    },
-    {
-      "name": "mailchimp",
-      "source": "plugins/mailchimp",
-      "description": "Create marketing campaigns."
-    },
-    {
       "name": "windsor-ai",
       "source": "plugins/windsor-ai",
       "description": "Connect Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads + 320 more."
@@ -1094,11 +939,6 @@
       "name": "peec-ai",
       "source": "plugins/peec-ai",
       "description": "Analyze your brand's visibility across LLMs."
-    },
-    {
-      "name": "airops",
-      "source": "plugins/airops",
-      "description": "Craft content that wins AI search."
     },
     {
       "name": "ramp",
@@ -1111,21 +951,6 @@
       "description": "Search, analyze and understand your finances on Mercury."
     },
     {
-      "name": "rillet",
-      "source": "plugins/rillet",
-      "description": "Query your live GL and financials in plain English."
-    },
-    {
-      "name": "digits",
-      "source": "plugins/digits",
-      "description": "Track and analyze your finances with Digits."
-    },
-    {
-      "name": "carta",
-      "source": "plugins/carta",
-      "description": "The connected ERP for private capital."
-    },
-    {
       "name": "razorpay",
       "source": "plugins/razorpay",
       "description": "Turn Claude into your Razorpay Dashboard Assistant."
@@ -1136,29 +961,9 @@
       "description": "Access PayPal payments platform."
     },
     {
-      "name": "cb-insights",
-      "source": "plugins/cb-insights",
-      "description": "Predictive intelligence on private companies."
-    },
-    {
-      "name": "factset",
-      "source": "plugins/factset",
-      "description": "Access institutional-quality financial data and analytics."
-    },
-    {
       "name": "sp-global",
       "source": "plugins/sp-global",
       "description": "Query a range of S&P Global datasets."
-    },
-    {
-      "name": "morningstar",
-      "source": "plugins/morningstar",
-      "description": "Up-to-date investment and market insights."
-    },
-    {
-      "name": "ibisworld",
-      "source": "plugins/ibisworld",
-      "description": "Financials, risk data and analysis on 50,000 industries."
     },
     {
       "name": "daloopa",
@@ -1166,99 +971,79 @@
       "description": "Financial fundamental data and KPIs with hyperlinks."
     },
     {
-      "name": "aiera",
-      "source": "plugins/aiera",
-      "description": "Live events, filings, company publications, and more."
-    },
-    {
-      "name": "midpage",
-      "source": "plugins/midpage",
-      "description": "Conduct legal research and create work product."
-    },
-    {
-      "name": "courtlistener",
-      "source": "plugins/courtlistener",
-      "description": "Legal research across millions of court records."
-    },
-    {
-      "name": "descrybe",
-      "source": "plugins/descrybe",
-      "description": "Ground your work in clean, structured U.S. primary law."
-    },
-    {
-      "name": "legal-data-hunter",
-      "source": "plugins/legal-data-hunter",
-      "description": "Search 23M+ legal docs in 160+ jurisdictions."
-    },
-    {
-      "name": "definely",
-      "source": "plugins/definely",
-      "description": "Structured contract review tools for legal teams."
-    },
-    {
-      "name": "imanage",
-      "source": "plugins/imanage",
-      "description": "Governed knowledge. AI ready."
-    },
-    {
-      "name": "biorender",
-      "source": "plugins/biorender",
-      "description": "Search for and use scientific templates and icons."
-    },
-    {
-      "name": "medidata",
-      "source": "plugins/medidata",
-      "description": "Clinical trial software and site ranking tools."
-    },
-    {
-      "name": "adisinsight",
-      "source": "plugins/adisinsight",
-      "description": "Pharmaceutical drug & clinical trial intelligence."
-    },
-    {
-      "name": "synapse",
-      "source": "plugins/synapse",
-      "description": "Search and metadata tools for Synapse scientific data."
-    },
-    {
-      "name": "open-targets",
-      "source": "plugins/open-targets",
-      "description": "Drug target discovery and prioritisation platform."
-    },
-    {
-      "name": "scite",
-      "source": "plugins/scite",
-      "description": "Evidence-based answers grounded in research."
-    },
-    {
-      "name": "consensus",
-      "source": "plugins/consensus",
-      "description": "Explore scientific research."
-    },
-    {
-      "name": "scholar-gateway",
-      "source": "plugins/scholar-gateway",
-      "description": "Enhance responses with scholarly research and citations."
-    },
-    {
-      "name": "udemy-business",
-      "source": "plugins/udemy-business",
-      "description": "Search and explore skill-building resources."
-    },
-    {
-      "name": "lilt",
-      "source": "plugins/lilt",
-      "description": "High-quality translation with human verification."
-    },
-    {
       "name": "supermetrics",
       "source": "plugins/supermetrics",
       "description": "Google Ads, Facebook Ads & 200+ marketing platforms."
     },
     {
-      "name": "motion-creative",
-      "source": "plugins/motion-creative",
-      "description": "Analyze your Meta ad creative & competitor ad libraries."
+      "name": "atlan",
+      "source": "plugins/atlan",
+      "description": "Search the Atlan data catalog for assets, lineage, owners and glossary terms."
+    },
+    {
+      "name": "confidence",
+      "source": "plugins/confidence",
+      "description": "Manage Confidence feature flags and experiments."
+    },
+    {
+      "name": "fullstory",
+      "source": "plugins/fullstory",
+      "description": "Search FullStory sessions, user journeys and frustration signals."
+    },
+    {
+      "name": "hex",
+      "source": "plugins/hex",
+      "description": "Query data and work with Hex projects, notebooks and apps."
+    },
+    {
+      "name": "mapbox",
+      "source": "plugins/mapbox",
+      "description": "Use Mapbox geocoding, directions, maps and location search."
+    },
+    {
+      "name": "meticulous",
+      "source": "plugins/meticulous",
+      "description": "Review Meticulous visual regression test runs and replays."
+    },
+    {
+      "name": "mobbin",
+      "source": "plugins/mobbin",
+      "description": "Search Mobbin's library of real app screens and flows for UI reference."
+    },
+    {
+      "name": "pendo",
+      "source": "plugins/pendo",
+      "description": "Query Pendo product usage, guides and feedback."
+    },
+    {
+      "name": "quicknode",
+      "source": "plugins/quicknode",
+      "description": "Manage QuickNode blockchain endpoints, usage and add-ons."
+    },
+    {
+      "name": "strix",
+      "source": "plugins/strix",
+      "description": "Run Strix AI security tests and review vulnerability findings."
+    },
+    {
+      "name": "swagger",
+      "source": "plugins/swagger",
+      "description": "Design, document and govern APIs with SmartBear Swagger."
+    },
+    {
+      "name": "val-town",
+      "source": "plugins/val-town",
+      "description": "Create and run Val Town vals, scripts and HTTP endpoints."
+    },
+    {
+      "name": "vanta",
+      "source": "plugins/vanta",
+      "description": "Review Vanta compliance tests, controls, vulnerabilities and evidence."
+    },
+    {
+      "name": "you-com",
+      "source": "plugins/you-com",
+      "description": "Search the web and news with You.com for current, cited results."
     }
   ]
 }

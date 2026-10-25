@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "udemy-business": {
-      "type": "http",
-      "url": "https://api.udemy.com/mcp"
-    }
-  }
-}

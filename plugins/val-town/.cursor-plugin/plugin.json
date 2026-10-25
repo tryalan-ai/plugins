@@ -1,0 +1,20 @@
+{
+  "name": "val-town",
+  "displayName": "Val Town",
+  "version": "1.0.0",
+  "description": "Create and run Val Town vals, scripts and HTTP endpoints.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.val.town",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "cloud-and-infrastructure",
+  "keywords": [
+    "serverless",
+    "scripts",
+    "hosting"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

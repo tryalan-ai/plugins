@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "rillet": {
-      "type": "http",
-      "url": "https://api.rillet.com/mcp"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "motion-creative": {
-      "type": "http",
-      "url": "https://projects.motionapp.com/mcp"
-    }
-  }
-}

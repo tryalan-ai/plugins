@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "affinity": {
-      "type": "http",
-      "url": "https://mcp.affinity.co/mcp"
-    }
-  }
-}

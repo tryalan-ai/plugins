@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "process-street": {
-      "type": "http",
-      "url": "https://mcp.process.st"
-    }
-  }
-}

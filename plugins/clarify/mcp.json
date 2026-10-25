@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "clarify": {
-      "type": "http",
-      "url": "https://api.clarify.ai/mcp"
-    }
-  }
-}

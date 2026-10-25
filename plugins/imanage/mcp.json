@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "imanage": {
-      "type": "http",
-      "url": "https://cloudimanage.com/mcp/work"
-    }
-  }
-}

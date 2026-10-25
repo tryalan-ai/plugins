@@ -6,7 +6,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 
 ## Plugins
 
-251 plugins in 23 categories.
+208 plugins in 21 categories, focused on engineering, product and company tools.
 
 ### Code and CI
 
@@ -33,7 +33,9 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Porter | OAuth | Manage Porter applications, deployments and clusters |
 | Pulumi | OAuth | Search Pulumi stacks and cloud resources and run Pulumi Copilot queries |
 | Qovery | OAuth | Manage Qovery environments, services and deployments |
+| QuickNode | OAuth | Manage QuickNode blockchain endpoints, usage and add-ons |
 | Railway | OAuth | Manage Railway projects, services, deployments and logs |
+| Val Town | OAuth | Create and run Val Town vals, scripts and HTTP endpoints |
 | Vercel | OAuth | Inspect Vercel projects, deployments and build logs |
 | Vultr | OAuth | Manage Vultr instances, Kubernetes clusters, databases and DNS |
 
@@ -43,6 +45,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | --- | --- | --- |
 | Algolia | OAuth | Manage Algolia indices, records and search settings, and run queries |
 | Appwrite | OAuth | Manage Appwrite projects, databases, storage, functions and users |
+| Atlan | OAuth | Search the Atlan data catalog for assets, lineage, owners and glossary terms |
 | Clerk | OAuth | Manage Clerk users, organizations, sessions and auth settings |
 | ClickHouse Cloud | OAuth | Query ClickHouse Cloud services and inspect schemas |
 | Descope | OAuth | Manage Descope users, tenants, flows and auth configuration |
@@ -84,6 +87,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Cypress Cloud | OAuth | Review Cypress Cloud test runs, failures, flaky tests and recordings |
 | Jam | OAuth | Read Jam bug reports with console logs, network requests and repro steps |
 | mabl | OAuth | Run and review mabl automated tests, plans and results |
+| Meticulous | OAuth | Review Meticulous visual regression test runs and replays |
 | Momentic | OAuth | Create and run Momentic AI end-to-end tests and review results |
 | Postman | OAuth | Work with Postman workspaces, collections, environments and API specs |
 | Sauce Labs | OAuth | Review Sauce Labs test jobs, devices, builds and results |
@@ -97,17 +101,23 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Drata | OAuth | Review Drata compliance controls, tests, evidence and policies |
 | Ketryx | OAuth | Search and explore regulated software lifecycle data |
 | Socket | OAuth | Check open-source dependencies for supply-chain risk, vulnerabilities and licences |
+| Strix | OAuth | Run Strix AI security tests and review vulnerability findings |
+| Vanta | OAuth | Review Vanta compliance tests, controls, vulnerabilities and evidence |
 
 ### Analytics and experiments
 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
 | Amplitude | OAuth | Query Amplitude charts, events, cohorts and experiments |
+| Confidence | OAuth | Manage Confidence feature flags and experiments |
 | Contentsquare | OAuth | Experience analytics platform for digital businesses |
 | Flagsmith | OAuth | Create and update Flagsmith feature flags, segments and environments |
+| FullStory | OAuth | Search FullStory sessions, user journeys and frustration signals |
 | GrowthBook | OAuth | Manage GrowthBook feature flags and experiments and read results |
+| Hex | OAuth | Query data and work with Hex projects, notebooks and apps |
 | LaunchDarkly | OAuth | Create, inspect and update LaunchDarkly feature flags and targeting |
 | Mixpanel | OAuth | Query Mixpanel events, funnels and reports |
+| Pendo | OAuth | Query Pendo product usage, guides and feedback |
 | PostHog | OAuth | Query PostHog insights, feature flags and experiments |
 | Statsig | OAuth | Manage Statsig gates, experiments and dynamic configs |
 | ThoughtSpot Spotter | OAuth | Your AI data analyst, from question to trusted insights |
@@ -118,9 +128,11 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | --- | --- | --- |
 | Knock | OAuth | Manage Knock notification workflows, templates and messages |
 | Loops | OAuth | Manage Loops contacts, transactional email and campaigns |
+| Mapbox | OAuth | Use Mapbox geocoding, directions, maps and location search |
 | Mux | OAuth | Manage Mux video assets, live streams and playback data |
 | Novu | OAuth | Manage Novu notification workflows, subscribers and messages |
 | Resend | OAuth | Send transactional email and manage Resend domains, templates and contacts |
+| Swagger | OAuth | Design, document and govern APIs with SmartBear Swagger |
 | Twilio | None | Build powerful communications and customer engagement |
 
 ### AI and memory
@@ -131,45 +143,35 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Braintrust | OAuth | Query Braintrust experiments, datasets, logs and evals for LLM apps |
 | Dust | OAuth | Run Dust agents and search your company's connected knowledge |
 | fal | OAuth | Discover and run fal generative models for images, video and audio |
-| HeyGen | OAuth | Create and manage HeyGen AI avatar videos |
 | mem0 | OAuth | Store and retrieve persistent agent memories with mem0 |
 | Replicate | OAuth | Search and run Replicate models and inspect predictions |
-| Runway | OAuth | Generate images and video with Runway models |
 | Supermemory | OAuth | Save and search long-term memories and documents across your tools with Supermemory |
-| Synthesia | OAuth | Create and manage Synthesia AI videos and templates |
 | Zep | OAuth | Search Zep knowledge graphs and long-term memory for users and agents |
 
 ### Docs and research
 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
-| Aiera | OAuth | Live events, filings, company publications, and more |
 | Apify | OAuth | Run Apify Actors to scrape websites and collect web data |
 | AWS Knowledge | None | Search AWS documentation, API references and architecture guidance |
-| CB Insights | OAuth | Predictive intelligence on private companies |
 | Cloudflare Docs | None | Search Cloudflare's developer documentation |
-| Consensus | OAuth | Explore scientific research |
 | Daloopa | OAuth | Financial fundamental data and KPIs with hyperlinks |
 | Docs Research | None | Up-to-date library documentation and repository wikis, with a skill for choosing between them |
 | Exa | OAuth | Search the web and code with Exa for current documentation and examples |
-| FactSet AI-Ready Data | OAuth | Access institutional-quality financial data and analytics |
 | GitBook | OAuth | Search and update GitBook spaces, pages and documentation |
 | GitMCP | None | Read documentation and code from any public GitHub repository |
 | GraphOS MCP Tools | None | Search Apollo docs, specs, and best practices |
 | Hugging Face | None | Search models, datasets, Spaces and papers on Hugging Face |
-| IBISWorld | OAuth | Financials, risk data and analysis on 50,000 industries |
 | Microsoft Learn | None | Search Microsoft Learn documentation and code samples for Azure, .NET and Microsoft 365 |
 | Mintlify | OAuth | Search and update Mintlify documentation sites |
-| Morningstar | OAuth | Up-to-date investment and market insights |
 | Perplexity | OAuth | Search the web with Perplexity for cited, current answers |
 | pg-aiguide | None | Search pg and Tiger docs, learn database skills |
 | Qdrant Docs | None | Search Qdrant vector database documentation |
 | Redis Docs | None | Search Redis documentation and get answers about Redis commands and patterns |
 | S&P Global | OAuth | Query a range of S&P Global datasets |
-| Scholar Gateway | OAuth | Enhance responses with scholarly research and citations |
-| Scite | OAuth | Evidence-based answers grounded in research |
 | Tavily | OAuth | Search and extract web content with Tavily for current information |
 | Wolfram | None | Inject precise, real-time computation and knowledge |
+| You.com | OAuth | Search the web and news with You.com for current, cited results |
 
 ### Design
 
@@ -182,6 +184,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Lucid | OAuth | Search and create Lucidchart and Lucidspark diagrams and documents |
 | Magic Patterns | OAuth | Discuss and iterate on Magic Patterns designs |
 | Miro | OAuth | Read and add content on Miro boards |
+| Mobbin | OAuth | Search Mobbin's library of real app screens and flows for UI reference |
 | Spline | OAuth | Create and edit Spline 3D scenes and assets |
 | tldraw | None | Let Claude sketch, draw, and diagram with you |
 | UXPin | OAuth | Read UXPin designs, prototypes and design-system components |
@@ -214,7 +217,6 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Capacities | OAuth | Search and create objects and notes in Capacities |
 | Coda | OAuth | Read and update Coda docs, pages and tables |
 | Craft | OAuth | Read and update Craft documents and spaces |
-| Egnyte | OAuth | Securely access and analyze Egnyte content |
 | Evernote | OAuth | Search and create Evernote notes and notebooks |
 | Guru | OAuth | Search and update team knowledge in Guru cards and collections |
 | Heptabase | OAuth | Search Heptabase cards, whiteboards and journals |
@@ -248,21 +250,9 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
 | Airtable | OAuth | Read and update Airtable bases, tables and records |
-| Akiflow | OAuth | Manage Akiflow tasks, time blocks and calendar |
-| Cal.com | OAuth | Check availability and manage Cal.com bookings and event types |
 | Calendly | OAuth | Check availability and manage Calendly event types and bookings |
-| Everhour | OAuth | Track and report time in Everhour across projects and tasks |
-| Harvest | OAuth | Track time and review projects, invoices and reports in Harvest |
 | Jotform | OAuth | Create Jotform forms and read their submissions |
-| LILT | OAuth | High-quality translation with human verification |
-| Lumin | OAuth | Manage documents, send signature requests, and convert Markdown to PDF |
-| PandaDoc | OAuth | Create and track PandaDoc documents, templates and contracts |
-| Process Street | OAuth | Explore and update your Process Street data |
-| Send | OAuth | Create shareable documents, one-pagers, and decks |
-| Superhuman Mail | OAuth | The most productive email app ever, for Gmail & Outlook |
-| Tally | OAuth | Create Tally forms and read their submissions |
 | Typeform | OAuth | Create Typeform forms and read their responses |
-| Udemy Business | OAuth | Search and explore skill-building resources |
 
 ### Automation
 
@@ -278,7 +268,6 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
-| Gainsight (Staircase AI) | OAuth | Power AI Workflows with Customer Context |
 | Plain | OAuth | Search and update Plain support threads, customers and labels |
 | Pylon | OAuth | Search and update Pylon support issues, accounts and knowledge base |
 | Unthread | OAuth | Manage and automate your support tickets |
@@ -288,37 +277,21 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
-| Affinity | OAuth | Search Affinity relationships, organizations, deals and notes |
 | Amplemarket | OAuth | Find leads and manage Amplemarket sequences and accounts |
 | Apollo | OAuth | Search Apollo contacts and companies and manage sequences |
 | Attio | OAuth | Search and update Attio companies, people, deals and notes |
-| Clarify | OAuth | Query your CRM. Create records. Ask anything |
 | Clay | OAuth | Enrich companies and people and work with Clay tables |
-| Close | OAuth | Search and update Close leads, contacts, opportunities and activities |
-| Common Room | OAuth | Your GTM Copilot |
-| Crossbeam | OAuth | Explore partner data and ecosystem insights in Claude |
-| Day AI | OAuth | Know everything about your prospects & customers with CRMx |
-| folk | OAuth | Search and update folk contacts, companies and pipelines |
-| Harmonic | OAuth | Discover, research, and enrich companies and people |
-| lemlist | OAuth | Manage lemlist campaigns, leads and outreach sequences |
 | Outreach | OAuth | Read and manage Outreach prospects, sequences and activity |
-| Smartlead | OAuth | Manage Smartlead cold email campaigns, leads and analytics |
-| Sybill | OAuth | Ask AI about your sales calls, deals & pipeline |
-| Twenty | OAuth | Search and update Twenty CRM people, companies and opportunities |
 
 ### Marketing
 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
-| AirOps | OAuth | Craft content that wins AI search |
 | beehiiv | OAuth | Manage beehiiv newsletter posts, subscribers and analytics |
-| Bitly | OAuth | Shorten links, generate QR Codes, and track performance |
 | Customer.io | OAuth | Read Customer.io campaigns, segments and customer activity |
-| Intuit Mailchimp | OAuth | Create marketing campaigns |
 | Klaviyo | OAuth | Read Klaviyo campaigns, flows, segments and performance |
 | MailerLite | OAuth | Manage MailerLite subscribers, groups and campaigns |
 | Meltwater | OAuth | Search Meltwater media coverage, mentions and social listening |
-| Motion Creative Analytics | OAuth | Analyze your Meta ad creative & competitor ad libraries |
 | Peec AI | OAuth | Analyze your brand's visibility across LLMs |
 | Profound | OAuth | Track how your brand appears in AI search answers with Profound |
 | Similarweb | OAuth | Research website traffic, rankings and competitors with Similarweb |
@@ -330,15 +303,12 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Plugin | Connects with | What it does |
 | --- | --- | --- |
 | Brex | OAuth | Review Brex expenses, cards, budgets and transactions |
-| Carta | OAuth | The connected ERP for private capital |
-| Digits | OAuth | Track and analyze your finances with Digits |
 | GoCardless | None | Build GoCardless payment API integrations |
 | Mercury | OAuth | Search, analyze and understand your finances on Mercury |
 | Paddle | OAuth | Manage Paddle products, prices, customers, subscriptions and transactions |
 | PayPal | OAuth | Access PayPal payments platform |
 | Ramp | OAuth | Search, access, and analyze your Ramp financial data |
 | Razorpay | OAuth | Turn Claude into your Razorpay Dashboard Assistant |
-| Rillet | OAuth | Query your live GL and financials in plain English |
 | Stripe | OAuth | Look up Stripe customers, payments and subscriptions |
 
 ### HR and recruiting
@@ -349,30 +319,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Greenhouse | OAuth | Search Greenhouse jobs, candidates, applications and interviews |
 | Gusto | OAuth | Read Gusto employees, payroll and time-off information |
 | Juicebox | OAuth | Search for candidates and manage talent pipelines with Juicebox |
-| Metaview | OAuth | The AI platform for recruiting |
-| Shapes | OAuth | Analyse your live people data, right in Claude |
 | Workable | OAuth | Search Workable jobs, candidates and hiring stages |
-
-### Legal
-
-| Plugin | Connects with | What it does |
-| --- | --- | --- |
-| CourtListener | OAuth | Legal research across millions of court records |
-| Definely | OAuth | Structured contract review tools for legal teams |
-| Descrybe Legal Engine | OAuth | Ground your work in clean, structured U.S. primary law |
-| iManage Work | OAuth | Governed knowledge. AI ready |
-| Legal Data Hunter | OAuth | Search 23M+ legal docs in 160+ jurisdictions |
-| Midpage Legal Research | OAuth | Conduct legal research and create work product |
-
-### Life sciences
-
-| Plugin | Connects with | What it does |
-| --- | --- | --- |
-| AdisInsight | OAuth | Pharmaceutical drug & clinical trial intelligence |
-| BioRender | OAuth | Search for and use scientific templates and icons |
-| Medidata | OAuth | Clinical trial software and site ranking tools |
-| Open Targets | None | Drug target discovery and prioritisation platform |
-| Synapse.org | OAuth | Search and metadata tools for Synapse scientific data |
 
 OAuth plugins use provider discovery and either dynamic registration or an administrator-registered client. Every OAuth plugin listed here was checked with `scripts/probe-auth.mjs` to accept Alan's production callback. Vendors that still need an Alan OAuth app or partner approval, including Google Workspace, Canva and Figma, are tracked in [docs/vendor-access.md](docs/vendor-access.md) and return to the marketplace once they work.
 
