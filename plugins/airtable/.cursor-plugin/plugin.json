@@ -1,0 +1,19 @@
+{
+  "name": "airtable",
+  "displayName": "Airtable",
+  "version": "1.0.0",
+  "description": "Read and update Airtable bases, tables and records.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://airtable.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "databases",
+    "spreadsheets",
+    "records"
+  ],
+  "mcpServers": "./mcp.json"
+}

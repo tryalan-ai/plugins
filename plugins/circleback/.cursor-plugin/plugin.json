@@ -1,0 +1,19 @@
+{
+  "name": "circleback",
+  "displayName": "Circleback",
+  "version": "1.0.0",
+  "description": "Search Circleback meeting notes, decisions and action items.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://circleback.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "decisions",
+    "action-items"
+  ],
+  "mcpServers": "./mcp.json"
+}

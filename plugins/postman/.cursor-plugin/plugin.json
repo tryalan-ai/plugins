@@ -1,0 +1,19 @@
+{
+  "name": "postman",
+  "displayName": "Postman",
+  "version": "1.0.0",
+  "description": "Work with Postman workspaces, collections, environments and API specs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.postman.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "testing",
+  "keywords": [
+    "api",
+    "testing",
+    "collections"
+  ],
+  "mcpServers": "./mcp.json"
+}

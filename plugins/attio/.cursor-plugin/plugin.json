@@ -1,0 +1,19 @@
+{
+  "name": "attio",
+  "displayName": "Attio",
+  "version": "1.0.0",
+  "description": "Search and update Attio companies, people, deals and notes.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://attio.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "crm",
+  "keywords": [
+    "crm",
+    "customers",
+    "deals"
+  ],
+  "mcpServers": "./mcp.json"
+}

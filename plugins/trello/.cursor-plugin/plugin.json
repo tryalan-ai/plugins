@@ -1,0 +1,19 @@
+{
+  "name": "trello",
+  "displayName": "Trello",
+  "version": "1.0.0",
+  "description": "Find, create and move Trello cards, lists and boards.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://trello.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "boards",
+    "cards",
+    "kanban"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "planetscale",
+  "displayName": "PlanetScale",
+  "version": "1.0.0",
+  "description": "Manage PlanetScale databases, branches and deploy requests, and run queries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://planetscale.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "mysql",
+    "postgres",
+    "branches"
+  ],
+  "mcpServers": "./mcp.json"
+}

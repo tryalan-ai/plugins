@@ -1,0 +1,19 @@
+{
+  "name": "fireflies",
+  "displayName": "Fireflies",
+  "version": "1.0.0",
+  "description": "Search Fireflies meeting transcripts, summaries and action items.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://fireflies.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "transcripts",
+    "action-items"
+  ],
+  "mcpServers": "./mcp.json"
+}

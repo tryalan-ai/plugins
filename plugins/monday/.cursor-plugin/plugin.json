@@ -1,0 +1,19 @@
+{
+  "name": "monday",
+  "displayName": "monday.com",
+  "version": "1.0.0",
+  "description": "Read and update monday.com boards, items and updates.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://monday.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "boards",
+    "tasks",
+    "workflows"
+  ],
+  "mcpServers": "./mcp.json"
+}

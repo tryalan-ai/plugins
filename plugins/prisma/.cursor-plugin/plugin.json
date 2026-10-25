@@ -1,0 +1,19 @@
+{
+  "name": "prisma",
+  "displayName": "Prisma",
+  "version": "1.0.0",
+  "description": "Manage Prisma Postgres databases, migrations and backups.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.prisma.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "postgres",
+    "orm",
+    "migrations"
+  ],
+  "mcpServers": "./mcp.json"
+}

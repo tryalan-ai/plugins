@@ -104,6 +104,266 @@
       "name": "todoist",
       "source": "plugins/todoist",
       "description": "Find, create, update and complete Todoist tasks and manage projects."
+    },
+    {
+      "name": "gitlab",
+      "source": "plugins/gitlab",
+      "description": "Search GitLab projects, issues, merge requests and pipelines."
+    },
+    {
+      "name": "buildkite",
+      "source": "plugins/buildkite",
+      "description": "Inspect Buildkite pipelines, builds, jobs and logs."
+    },
+    {
+      "name": "datadog",
+      "source": "plugins/datadog",
+      "description": "Query Datadog logs, metrics, traces, monitors and incidents."
+    },
+    {
+      "name": "grafana",
+      "source": "plugins/grafana",
+      "description": "Search Grafana dashboards, query data sources and review alerts."
+    },
+    {
+      "name": "honeycomb",
+      "source": "plugins/honeycomb",
+      "description": "Query Honeycomb traces, events and SLOs to debug production behaviour."
+    },
+    {
+      "name": "axiom",
+      "source": "plugins/axiom",
+      "description": "Query Axiom datasets and logs with APL."
+    },
+    {
+      "name": "better-stack",
+      "source": "plugins/better-stack",
+      "description": "Search Better Stack logs, uptime monitors and incidents."
+    },
+    {
+      "name": "incident-io",
+      "source": "plugins/incident-io",
+      "description": "Read and update incident.io incidents, alerts and follow-ups."
+    },
+    {
+      "name": "rootly",
+      "source": "plugins/rootly",
+      "description": "Investigate Rootly incidents, alerts and on-call schedules."
+    },
+    {
+      "name": "cloudflare",
+      "source": "plugins/cloudflare",
+      "description": "Manage Cloudflare Workers, KV, R2 and D1, read Workers logs and inspect builds."
+    },
+    {
+      "name": "launchdarkly",
+      "source": "plugins/launchdarkly",
+      "description": "Create, inspect and update LaunchDarkly feature flags and targeting."
+    },
+    {
+      "name": "statsig",
+      "source": "plugins/statsig",
+      "description": "Manage Statsig gates, experiments and dynamic configs."
+    },
+    {
+      "name": "amplitude",
+      "source": "plugins/amplitude",
+      "description": "Query Amplitude charts, events, cohorts and experiments."
+    },
+    {
+      "name": "mixpanel",
+      "source": "plugins/mixpanel",
+      "description": "Query Mixpanel events, funnels and reports."
+    },
+    {
+      "name": "netlify",
+      "source": "plugins/netlify",
+      "description": "Create and deploy Netlify sites and inspect deploys and settings."
+    },
+    {
+      "name": "railway",
+      "source": "plugins/railway",
+      "description": "Manage Railway projects, services, deployments and logs."
+    },
+    {
+      "name": "heroku",
+      "source": "plugins/heroku",
+      "description": "Manage Heroku apps, dynos, add-ons and logs."
+    },
+    {
+      "name": "pulumi",
+      "source": "plugins/pulumi",
+      "description": "Search Pulumi stacks and cloud resources and run Pulumi Copilot queries."
+    },
+    {
+      "name": "aws-knowledge",
+      "source": "plugins/aws-knowledge",
+      "description": "Search AWS documentation, API references and architecture guidance."
+    },
+    {
+      "name": "microsoft-learn",
+      "source": "plugins/microsoft-learn",
+      "description": "Search Microsoft Learn documentation and code samples for Azure, .NET and Microsoft 365."
+    },
+    {
+      "name": "gitmcp",
+      "source": "plugins/gitmcp",
+      "description": "Read documentation and code from any public GitHub repository."
+    },
+    {
+      "name": "planetscale",
+      "source": "plugins/planetscale",
+      "description": "Manage PlanetScale databases, branches and deploy requests, and run queries."
+    },
+    {
+      "name": "prisma",
+      "source": "plugins/prisma",
+      "description": "Manage Prisma Postgres databases, migrations and backups."
+    },
+    {
+      "name": "mongodb",
+      "source": "plugins/mongodb",
+      "description": "Explore MongoDB Atlas clusters, collections and schemas and run queries."
+    },
+    {
+      "name": "clickhouse",
+      "source": "plugins/clickhouse",
+      "description": "Query ClickHouse Cloud services and inspect schemas."
+    },
+    {
+      "name": "motherduck",
+      "source": "plugins/motherduck",
+      "description": "Query MotherDuck and DuckDB databases with SQL."
+    },
+    {
+      "name": "socket",
+      "source": "plugins/socket",
+      "description": "Check open-source dependencies for supply-chain risk, vulnerabilities and licences."
+    },
+    {
+      "name": "postman",
+      "source": "plugins/postman",
+      "description": "Work with Postman workspaces, collections, environments and API specs."
+    },
+    {
+      "name": "exa",
+      "source": "plugins/exa",
+      "description": "Search the web and code with Exa for current documentation and examples."
+    },
+    {
+      "name": "replicate",
+      "source": "plugins/replicate",
+      "description": "Search and run Replicate models and inspect predictions."
+    },
+    {
+      "name": "braintrust",
+      "source": "plugins/braintrust",
+      "description": "Query Braintrust experiments, datasets, logs and evals for LLM apps."
+    },
+    {
+      "name": "webflow",
+      "source": "plugins/webflow",
+      "description": "Manage Webflow sites, pages, CMS collections and content."
+    },
+    {
+      "name": "framer",
+      "source": "plugins/framer",
+      "description": "Read and edit Framer projects, pages and CMS content."
+    },
+    {
+      "name": "lucid",
+      "source": "plugins/lucid",
+      "description": "Search and create Lucidchart and Lucidspark diagrams and documents."
+    },
+    {
+      "name": "excalidraw",
+      "source": "plugins/excalidraw",
+      "description": "Create Excalidraw diagrams and sketches."
+    },
+    {
+      "name": "clickup",
+      "source": "plugins/clickup",
+      "description": "Find, create and update ClickUp tasks, lists and docs."
+    },
+    {
+      "name": "monday",
+      "source": "plugins/monday",
+      "description": "Read and update monday.com boards, items and updates."
+    },
+    {
+      "name": "trello",
+      "source": "plugins/trello",
+      "description": "Find, create and move Trello cards, lists and boards."
+    },
+    {
+      "name": "shortcut",
+      "source": "plugins/shortcut",
+      "description": "Find, create and update Shortcut stories, epics and iterations."
+    },
+    {
+      "name": "productboard",
+      "source": "plugins/productboard",
+      "description": "Read Productboard features, insights and roadmaps."
+    },
+    {
+      "name": "airtable",
+      "source": "plugins/airtable",
+      "description": "Read and update Airtable bases, tables and records."
+    },
+    {
+      "name": "coda",
+      "source": "plugins/coda",
+      "description": "Read and update Coda docs, pages and tables."
+    },
+    {
+      "name": "guru",
+      "source": "plugins/guru",
+      "description": "Search and update team knowledge in Guru cards and collections."
+    },
+    {
+      "name": "zendesk",
+      "source": "plugins/zendesk",
+      "description": "Search and update Zendesk tickets to turn customer issues into engineering work."
+    },
+    {
+      "name": "granola",
+      "source": "plugins/granola",
+      "description": "Search Granola meeting notes and transcripts for decisions and requirements."
+    },
+    {
+      "name": "fireflies",
+      "source": "plugins/fireflies",
+      "description": "Search Fireflies meeting transcripts, summaries and action items."
+    },
+    {
+      "name": "fathom",
+      "source": "plugins/fathom",
+      "description": "Search Fathom meeting recordings, summaries and action items."
+    },
+    {
+      "name": "otter",
+      "source": "plugins/otter",
+      "description": "Search Otter meeting transcripts and summaries."
+    },
+    {
+      "name": "circleback",
+      "source": "plugins/circleback",
+      "description": "Search Circleback meeting notes, decisions and action items."
+    },
+    {
+      "name": "attio",
+      "source": "plugins/attio",
+      "description": "Search and update Attio companies, people, deals and notes."
+    },
+    {
+      "name": "resend",
+      "source": "plugins/resend",
+      "description": "Send transactional email and manage Resend domains, templates and contacts."
+    },
+    {
+      "name": "zapier",
+      "source": "plugins/zapier",
+      "description": "Run actions in thousands of apps through your own Zapier account."
     }
   ]
 }

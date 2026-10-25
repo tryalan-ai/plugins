@@ -1,0 +1,19 @@
+{
+  "name": "netlify",
+  "displayName": "Netlify",
+  "version": "1.0.0",
+  "description": "Create and deploy Netlify sites and inspect deploys and settings.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.netlify.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "deployment",
+  "keywords": [
+    "hosting",
+    "deploys",
+    "jamstack"
+  ],
+  "mcpServers": "./mcp.json"
+}

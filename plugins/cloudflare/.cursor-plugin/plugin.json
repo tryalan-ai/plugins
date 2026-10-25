@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare",
+  "displayName": "Cloudflare",
+  "version": "1.0.0",
+  "description": "Manage Cloudflare Workers, KV, R2 and D1, read Workers logs and inspect builds.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.cloudflare.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "deployment",
+  "keywords": [
+    "workers",
+    "edge",
+    "logs"
+  ],
+  "mcpServers": "./mcp.json"
+}

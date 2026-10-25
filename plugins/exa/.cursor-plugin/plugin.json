@@ -1,0 +1,19 @@
+{
+  "name": "exa",
+  "displayName": "Exa",
+  "version": "1.0.0",
+  "description": "Search the web and code with Exa for current documentation and examples.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://exa.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "web-search",
+    "research",
+    "code-search"
+  ],
+  "mcpServers": "./mcp.json"
+}

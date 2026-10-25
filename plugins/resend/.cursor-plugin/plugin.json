@@ -1,0 +1,19 @@
+{
+  "name": "resend",
+  "displayName": "Resend",
+  "version": "1.0.0",
+  "description": "Send transactional email and manage Resend domains, templates and contacts.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://resend.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "email",
+    "transactional",
+    "templates"
+  ],
+  "mcpServers": "./mcp.json"
+}

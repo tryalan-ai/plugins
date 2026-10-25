@@ -1,0 +1,19 @@
+{
+  "name": "socket",
+  "displayName": "Socket",
+  "version": "1.0.0",
+  "description": "Check open-source dependencies for supply-chain risk, vulnerabilities and licences.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://socket.dev",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "security",
+  "keywords": [
+    "dependencies",
+    "supply-chain",
+    "vulnerabilities"
+  ],
+  "mcpServers": "./mcp.json"
+}

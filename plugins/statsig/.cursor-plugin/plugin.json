@@ -1,0 +1,19 @@
+{
+  "name": "statsig",
+  "displayName": "Statsig",
+  "version": "1.0.0",
+  "description": "Manage Statsig gates, experiments and dynamic configs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://statsig.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "feature-flags",
+  "keywords": [
+    "feature-flags",
+    "experiments",
+    "analytics"
+  ],
+  "mcpServers": "./mcp.json"
+}

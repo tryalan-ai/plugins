@@ -1,0 +1,19 @@
+{
+  "name": "replicate",
+  "displayName": "Replicate",
+  "version": "1.0.0",
+  "description": "Search and run Replicate models and inspect predictions.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://replicate.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai",
+  "keywords": [
+    "models",
+    "inference",
+    "ml"
+  ],
+  "mcpServers": "./mcp.json"
+}

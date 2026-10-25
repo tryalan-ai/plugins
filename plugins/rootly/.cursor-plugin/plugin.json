@@ -1,0 +1,19 @@
+{
+  "name": "rootly",
+  "displayName": "Rootly",
+  "version": "1.0.0",
+  "description": "Investigate Rootly incidents, alerts and on-call schedules.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://rootly.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "incident-management",
+  "keywords": [
+    "incidents",
+    "on-call",
+    "postmortems"
+  ],
+  "mcpServers": "./mcp.json"
+}

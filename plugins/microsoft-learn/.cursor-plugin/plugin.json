@@ -1,0 +1,19 @@
+{
+  "name": "microsoft-learn",
+  "displayName": "Microsoft Learn",
+  "version": "1.0.0",
+  "description": "Search Microsoft Learn documentation and code samples for Azure, .NET and Microsoft 365.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://learn.microsoft.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs",
+  "keywords": [
+    "azure",
+    "dotnet",
+    "documentation"
+  ],
+  "mcpServers": "./mcp.json"
+}

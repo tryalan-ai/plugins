@@ -1,0 +1,19 @@
+{
+  "name": "clickup",
+  "displayName": "ClickUp",
+  "version": "1.0.0",
+  "description": "Find, create and update ClickUp tasks, lists and docs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://clickup.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "tasks",
+    "projects",
+    "docs"
+  ],
+  "mcpServers": "./mcp.json"
+}
