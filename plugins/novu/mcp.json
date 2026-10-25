@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "novu": {
+      "type": "http",
+      "url": "https://mcp.novu.co"
+    }
+  }
+}

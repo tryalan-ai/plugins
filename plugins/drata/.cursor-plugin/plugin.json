@@ -1,0 +1,19 @@
+{
+  "name": "drata",
+  "displayName": "Drata",
+  "version": "1.0.0",
+  "description": "Review Drata compliance controls, tests, evidence and policies.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://drata.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "security",
+  "keywords": [
+    "compliance",
+    "soc2",
+    "controls"
+  ],
+  "mcpServers": "./mcp.json"
+}

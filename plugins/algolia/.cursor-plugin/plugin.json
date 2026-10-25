@@ -1,0 +1,19 @@
+{
+  "name": "algolia",
+  "displayName": "Algolia",
+  "version": "1.0.0",
+  "description": "Manage Algolia indices, records and search settings, and run queries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.algolia.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "search",
+  "keywords": [
+    "search",
+    "indexing",
+    "relevance"
+  ],
+  "mcpServers": "./mcp.json"
+}

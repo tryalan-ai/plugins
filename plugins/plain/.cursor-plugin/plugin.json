@@ -1,0 +1,19 @@
+{
+  "name": "plain",
+  "displayName": "Plain",
+  "version": "1.0.0",
+  "description": "Search and update Plain support threads, customers and labels.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.plain.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "support",
+  "keywords": [
+    "support",
+    "tickets",
+    "customers"
+  ],
+  "mcpServers": "./mcp.json"
+}

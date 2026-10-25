@@ -1,0 +1,19 @@
+{
+  "name": "apify",
+  "displayName": "Apify",
+  "version": "1.0.0",
+  "description": "Run Apify Actors to scrape websites and collect web data.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://apify.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "scraping",
+    "crawling",
+    "web-data"
+  ],
+  "mcpServers": "./mcp.json"
+}

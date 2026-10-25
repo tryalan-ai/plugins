@@ -1,0 +1,19 @@
+{
+  "name": "expo",
+  "displayName": "Expo",
+  "version": "1.0.0",
+  "description": "Manage Expo projects, EAS builds, updates and submissions.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://expo.dev",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "mobile",
+    "react-native",
+    "builds"
+  ],
+  "mcpServers": "./mcp.json"
+}

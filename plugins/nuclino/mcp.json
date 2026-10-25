@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nuclino": {
+      "type": "http",
+      "url": "https://api.nuclino.com/mcp"
+    }
+  }
+}

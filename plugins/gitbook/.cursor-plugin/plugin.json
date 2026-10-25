@@ -1,0 +1,19 @@
+{
+  "name": "gitbook",
+  "displayName": "GitBook",
+  "version": "1.0.0",
+  "description": "Search and update GitBook spaces, pages and documentation.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.gitbook.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs",
+  "keywords": [
+    "documentation",
+    "knowledge-base",
+    "docs"
+  ],
+  "mcpServers": "./mcp.json"
+}

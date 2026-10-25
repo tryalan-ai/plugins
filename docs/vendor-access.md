@@ -8,7 +8,7 @@ Alan's callbacks:
 - Staging: `https://staging-api.tryalan.ai/public/mcp-connections/oauth/callback`
 - Local: `http://127.0.0.1:8400/public/mcp-connections/oauth/callback`
 
-Results come from `scripts/probe-auth.mjs`, run on 2026-10-25 against the production callback.
+Results come from `scripts/probe-auth.mjs`, run on 2026-10-25 against the production callback. Gmail, Google Calendar, Google Drive, Canva and Figma were removed from the marketplace on that date; add them back once the action below is done and `probe-auth.mjs` reports `direct`.
 
 ## Needs an Alan OAuth app
 
@@ -25,6 +25,11 @@ Create one app per vendor (per environment where noted), then add it to Alan's `
 | Box | `https://mcp.box.com` | `https://api.box.com` | Box developer console app |
 | DocuSign | `https://mcp.docusign.com/mcp` | `https://account.docusign.com` | DocuSign developer app |
 | PagerDuty | `https://mcp.pagerduty.com/mcp` | `https://app.pagerduty.com` | PagerDuty app, or an API-key variant (confirm header format) |
+| Discord | `https://mcp.discord.com` | Discord | Discord developer application |
+| Checkly | `https://api.checklyhq.com/mcp` | Checkly | Checkly OAuth app |
+| Chargebee | `https://mcp.chargebee.com` | Chargebee | Chargebee OAuth app |
+| Hygraph | `https://mcp.hygraph.com/mcp/` | Hygraph | Hygraph OAuth app |
+| Arize | `https://api.arize.com/mcp` | Arize | Arize OAuth app |
 
 ## Needs vendor approval
 
@@ -39,6 +44,10 @@ These vendors only accept clients on their own allowlist. Apply as Alan with the
 | Plane | Redirect URI rejected | Plane support |
 | BrowserStack | Only localhost, claude.ai or cursor:// redirects | BrowserStack partnership; a desktop loopback callback would also work |
 | CircleCI | Only loopback (`127.0.0.1`) redirects | A desktop loopback callback in Alan would work without approval |
+| Avoma | "redirect_uri host is not on the allowed list" | Avoma support |
+| Qase | "The selected redirect_uris is invalid" | Qase support |
+| RunPod | "redirect_uri is not allowed" | RunPod support |
+| Retool | Authorize endpoint returns `404` for Alan's client | Retool support |
 
 ## Needs investigation
 
@@ -48,8 +57,10 @@ These vendors only accept clients on their own allowlist. Apply as Alan with the
 | Semgrep | Rejects the `resource` parameter (`invalid_target`) | Check whether Alan can omit `resource` for this issuer |
 | Convex | Issues an authorization code without a login | Confirm what account the token grants before listing |
 | Render, Smartsheet, Wrike | No OAuth metadata; Cursor configures them with API-key headers | Confirm header format, then list as API-key plugins |
-| Weights & Biases, Langfuse, Tinybird, SonarQube Cloud | `401` with no OAuth metadata | Confirm API-key header format |
+| Weights & Biases, Langfuse, Tinybird, SonarQube Cloud, Appsmith, Kinde, Optimizely, Rippling | `401` with no usable OAuth metadata | Confirm API-key header format |
+| Gong | Registration requires a `scope`, which Alan's registration does not send | Send the resource's advertised scopes during dynamic registration |
+| Browserbase, Firecrawl, Greptile, LambdaTest, PromptLayer, Courier, Zenhub | Initialize and tool listing work without auth, but the tools act on an account | Confirm how each expects its API key before listing |
 
 ## No hosted MCP server found
 
-Upstash, Snyk, ElevenLabs, Loom and Microsoft 365 (Outlook, Teams, SharePoint, OneDrive) had no reachable hosted server at the URLs tried. Cursor serves Microsoft 365 through its own gateway, which does not work from Alan.
+Snyk, ElevenLabs, Loom and Microsoft 365 (Outlook, Teams, SharePoint, OneDrive) had no reachable hosted server at the URLs tried. Cursor serves Microsoft 365 through its own gateway, which does not work from Alan.

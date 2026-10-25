@@ -1,0 +1,19 @@
+{
+  "name": "workos",
+  "displayName": "WorkOS",
+  "version": "1.0.0",
+  "description": "Manage WorkOS organizations, SSO connections, directories and users.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://workos.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "auth",
+  "keywords": [
+    "sso",
+    "authentication",
+    "directory-sync"
+  ],
+  "mcpServers": "./mcp.json"
+}

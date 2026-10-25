@@ -1,0 +1,19 @@
+{
+  "name": "qdrant-docs",
+  "displayName": "Qdrant Docs",
+  "version": "1.0.0",
+  "description": "Search Qdrant vector database documentation.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://qdrant.tech",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs",
+  "keywords": [
+    "vector-database",
+    "documentation",
+    "search"
+  ],
+  "mcpServers": "./mcp.json"
+}

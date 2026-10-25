@@ -1,0 +1,19 @@
+{
+  "name": "baseten",
+  "displayName": "Baseten",
+  "version": "1.0.0",
+  "description": "Deploy and manage Baseten model endpoints and inspect their status.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.baseten.co",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai",
+  "keywords": [
+    "inference",
+    "models",
+    "deployment"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "namespace",
+  "displayName": "Namespace",
+  "version": "1.0.0",
+  "description": "Inspect Namespace CI runners, builds and development environments.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://namespace.so",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "ci",
+    "runners",
+    "builds"
+  ],
+  "mcpServers": "./mcp.json"
+}

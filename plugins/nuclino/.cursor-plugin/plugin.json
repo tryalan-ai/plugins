@@ -1,0 +1,19 @@
+{
+  "name": "nuclino",
+  "displayName": "Nuclino",
+  "version": "1.0.0",
+  "description": "Search and update Nuclino workspaces, items and collections.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.nuclino.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "knowledge",
+  "keywords": [
+    "wiki",
+    "knowledge-base",
+    "docs"
+  ],
+  "mcpServers": "./mcp.json"
+}

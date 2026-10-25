@@ -1,0 +1,19 @@
+{
+  "name": "novu",
+  "displayName": "Novu",
+  "version": "1.0.0",
+  "description": "Manage Novu notification workflows, subscribers and messages.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://novu.co",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "notifications",
+    "messaging",
+    "inbox"
+  ],
+  "mcpServers": "./mcp.json"
+}

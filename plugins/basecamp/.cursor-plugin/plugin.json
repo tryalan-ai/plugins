@@ -1,0 +1,19 @@
+{
+  "name": "basecamp",
+  "displayName": "Basecamp",
+  "version": "1.0.0",
+  "description": "Read and update Basecamp projects, to-dos, messages and schedules.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://basecamp.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "projects",
+    "to-dos",
+    "teams"
+  ],
+  "mcpServers": "./mcp.json"
+}

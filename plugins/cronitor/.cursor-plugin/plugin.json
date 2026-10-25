@@ -1,0 +1,19 @@
+{
+  "name": "cronitor",
+  "displayName": "Cronitor",
+  "version": "1.0.0",
+  "description": "Inspect Cronitor cron job, heartbeat and uptime monitors and their incidents.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://cronitor.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "monitoring",
+  "keywords": [
+    "cron",
+    "uptime",
+    "heartbeats"
+  ],
+  "mcpServers": "./mcp.json"
+}

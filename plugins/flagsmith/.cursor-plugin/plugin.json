@@ -1,0 +1,19 @@
+{
+  "name": "flagsmith",
+  "displayName": "Flagsmith",
+  "version": "1.0.0",
+  "description": "Create and update Flagsmith feature flags, segments and environments.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.flagsmith.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "feature-flags",
+  "keywords": [
+    "feature-flags",
+    "remote-config",
+    "segments"
+  ],
+  "mcpServers": "./mcp.json"
+}

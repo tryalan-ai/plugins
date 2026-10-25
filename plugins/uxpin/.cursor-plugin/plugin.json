@@ -1,0 +1,19 @@
+{
+  "name": "uxpin",
+  "displayName": "UXPin",
+  "version": "1.0.0",
+  "description": "Read UXPin designs, prototypes and design-system components.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.uxpin.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "prototyping",
+    "design-systems",
+    "ui"
+  ],
+  "mcpServers": "./mcp.json"
+}

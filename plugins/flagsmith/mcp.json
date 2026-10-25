@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flagsmith": {
+      "type": "http",
+      "url": "https://mcp.flagsmith.com"
+    }
+  }
+}

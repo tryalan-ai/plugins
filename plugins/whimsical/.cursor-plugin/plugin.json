@@ -1,0 +1,19 @@
+{
+  "name": "whimsical",
+  "displayName": "Whimsical",
+  "version": "1.0.0",
+  "description": "Create and read Whimsical flowcharts, wireframes, mind maps and docs.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://whimsical.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "diagrams",
+    "wireframes",
+    "flowcharts"
+  ],
+  "mcpServers": "./mcp.json"
+}

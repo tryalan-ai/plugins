@@ -1,0 +1,19 @@
+{
+  "name": "appwrite",
+  "displayName": "Appwrite",
+  "version": "1.0.0",
+  "description": "Manage Appwrite projects, databases, storage, functions and users.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://appwrite.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "backend",
+  "keywords": [
+    "backend",
+    "auth",
+    "database"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tldv",
+  "displayName": "tl;dv",
+  "version": "1.0.0",
+  "description": "Search tl;dv meeting recordings, notes and highlights.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://tldv.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "recordings",
+    "highlights"
+  ],
+  "mcpServers": "./mcp.json"
+}

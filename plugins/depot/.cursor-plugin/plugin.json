@@ -1,0 +1,19 @@
+{
+  "name": "depot",
+  "displayName": "Depot",
+  "version": "1.0.0",
+  "description": "Inspect Depot container builds, caches and CI runners.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://depot.dev",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "docker",
+    "builds",
+    "ci"
+  ],
+  "mcpServers": "./mcp.json"
+}

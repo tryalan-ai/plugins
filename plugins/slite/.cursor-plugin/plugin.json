@@ -1,0 +1,19 @@
+{
+  "name": "slite",
+  "displayName": "Slite",
+  "version": "1.0.0",
+  "description": "Search and update Slite notes and knowledge base.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://slite.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "knowledge",
+  "keywords": [
+    "wiki",
+    "knowledge-base",
+    "docs"
+  ],
+  "mcpServers": "./mcp.json"
+}
