@@ -1,0 +1,18 @@
+{
+  "name": "unthread",
+  "displayName": "Unthread",
+  "version": "1.0.0",
+  "description": "Manage and automate your support tickets.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://unthread.io/",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "support",
+  "keywords": [
+    "support"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

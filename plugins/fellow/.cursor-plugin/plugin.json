@@ -1,0 +1,18 @@
+{
+  "name": "fellow",
+  "displayName": "Fellow.ai",
+  "version": "1.0.0",
+  "description": "Chat with your meetings to uncover actionable insights.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://fellow.ai/",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meetings"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

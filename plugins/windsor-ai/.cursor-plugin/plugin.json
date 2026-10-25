@@ -1,0 +1,18 @@
+{
+  "name": "windsor-ai",
+  "displayName": "Windsor.ai",
+  "version": "1.0.0",
+  "description": "Connect Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads + 320 more.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://windsor.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "marketing",
+  "keywords": [
+    "marketing"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

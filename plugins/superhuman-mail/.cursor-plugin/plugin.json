@@ -1,0 +1,18 @@
+{
+  "name": "superhuman-mail",
+  "displayName": "Superhuman Mail",
+  "version": "1.0.0",
+  "description": "The most productive email app ever, for Gmail & Outlook.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://superhuman.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "productivity"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

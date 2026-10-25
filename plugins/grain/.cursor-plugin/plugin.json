@@ -1,0 +1,18 @@
+{
+  "name": "grain",
+  "displayName": "Grain",
+  "version": "1.0.0",
+  "description": "Put your meetings to work.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://grain.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meetings"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "apollo-graphos",
+  "displayName": "GraphOS MCP Tools",
+  "version": "1.0.0",
+  "description": "Search Apollo docs, specs, and best practices.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.apollographql.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs-and-research",
+  "keywords": [
+    "docs-and-research"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

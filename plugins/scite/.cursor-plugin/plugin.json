@@ -1,0 +1,18 @@
+{
+  "name": "scite",
+  "displayName": "Scite",
+  "version": "1.0.0",
+  "description": "Evidence-based answers grounded in research.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://scite.ai/",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "docs-and-research",
+  "keywords": [
+    "docs-and-research"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}
