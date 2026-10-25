@@ -1,0 +1,19 @@
+{
+  "name": "upstash",
+  "displayName": "Upstash",
+  "version": "1.0.0",
+  "description": "Manage Upstash Redis, QStash and Vector databases.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://upstash.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "redis",
+    "queues",
+    "serverless"
+  ],
+  "mcpServers": "./mcp.json"
+}

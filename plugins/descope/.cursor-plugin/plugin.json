@@ -1,0 +1,19 @@
+{
+  "name": "descope",
+  "displayName": "Descope",
+  "version": "1.0.0",
+  "description": "Manage Descope users, tenants, flows and auth configuration.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.descope.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "auth",
+  "keywords": [
+    "authentication",
+    "users",
+    "tenants"
+  ],
+  "mcpServers": "./mcp.json"
+}

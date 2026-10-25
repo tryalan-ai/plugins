@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "launchdarkly": {
+      "type": "http",
+      "url": "https://mcp.launchdarkly.com/mcp/fm"
+    }
+  }
+}

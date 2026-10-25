@@ -1,0 +1,19 @@
+{
+  "name": "supernormal",
+  "displayName": "Supernormal",
+  "version": "1.0.0",
+  "description": "Search Supernormal meeting notes, summaries and action items.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.supernormal.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "summaries",
+    "action-items"
+  ],
+  "mcpServers": "./mcp.json"
+}

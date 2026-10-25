@@ -1,0 +1,19 @@
+{
+  "name": "braintrust",
+  "displayName": "Braintrust",
+  "version": "1.0.0",
+  "description": "Query Braintrust experiments, datasets, logs and evals for LLM apps.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.braintrust.dev",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai",
+  "keywords": [
+    "evals",
+    "llm",
+    "observability"
+  ],
+  "mcpServers": "./mcp.json"
+}

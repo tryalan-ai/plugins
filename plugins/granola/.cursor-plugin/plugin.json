@@ -1,0 +1,19 @@
+{
+  "name": "granola",
+  "displayName": "Granola",
+  "version": "1.0.0",
+  "description": "Search Granola meeting notes and transcripts for decisions and requirements.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.granola.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "transcripts",
+    "requirements"
+  ],
+  "mcpServers": "./mcp.json"
+}

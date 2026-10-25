@@ -1,0 +1,19 @@
+{
+  "name": "spline",
+  "displayName": "Spline",
+  "version": "1.0.0",
+  "description": "Create and edit Spline 3D scenes and assets.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://spline.design",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "3d",
+    "design",
+    "interactive"
+  ],
+  "mcpServers": "./mcp.json"
+}

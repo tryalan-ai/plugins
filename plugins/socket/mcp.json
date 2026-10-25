@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "socket": {
+      "type": "http",
+      "url": "https://mcp.socket.dev/"
+    }
+  }
+}

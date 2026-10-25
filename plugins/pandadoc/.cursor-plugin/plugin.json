@@ -1,0 +1,19 @@
+{
+  "name": "pandadoc",
+  "displayName": "PandaDoc",
+  "version": "1.0.0",
+  "description": "Create and track PandaDoc documents, templates and contracts.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.pandadoc.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "documents",
+    "contracts",
+    "e-signature"
+  ],
+  "mcpServers": "./mcp.json"
+}

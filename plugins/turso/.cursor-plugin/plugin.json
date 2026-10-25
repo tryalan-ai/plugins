@@ -1,0 +1,19 @@
+{
+  "name": "turso",
+  "displayName": "Turso",
+  "version": "1.0.0",
+  "description": "Manage Turso databases and groups and run SQL queries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://turso.tech",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "sqlite",
+    "libsql",
+    "edge-database"
+  ],
+  "mcpServers": "./mcp.json"
+}

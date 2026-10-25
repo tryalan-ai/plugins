@@ -1,0 +1,19 @@
+{
+  "name": "sauce-labs",
+  "displayName": "Sauce Labs",
+  "version": "1.0.0",
+  "description": "Review Sauce Labs test jobs, devices, builds and results.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://saucelabs.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "testing",
+  "keywords": [
+    "cross-browser",
+    "mobile-testing",
+    "test-runs"
+  ],
+  "mcpServers": "./mcp.json"
+}

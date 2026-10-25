@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "twenty": {
+      "type": "http",
+      "url": "https://mcp.twenty.com/mcp"
+    }
+  }
+}

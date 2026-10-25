@@ -1,0 +1,19 @@
+{
+  "name": "fal",
+  "displayName": "fal",
+  "version": "1.0.0",
+  "description": "Discover and run fal generative models for images, video and audio.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://fal.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "ai",
+  "keywords": [
+    "generative-ai",
+    "models",
+    "media"
+  ],
+  "mcpServers": "./mcp.json"
+}

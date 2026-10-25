@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "knock": {
+      "type": "http",
+      "url": "https://mcp.knock.app/mcp"
+    }
+  }
+}

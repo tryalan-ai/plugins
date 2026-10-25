@@ -1,0 +1,19 @@
+{
+  "name": "fathom",
+  "displayName": "Fathom",
+  "version": "1.0.0",
+  "description": "Search Fathom meeting recordings, summaries and action items.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://fathom.video",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "recordings",
+    "action-items"
+  ],
+  "mcpServers": "./mcp.json"
+}

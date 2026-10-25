@@ -1,0 +1,19 @@
+{
+  "name": "framer",
+  "displayName": "Framer",
+  "version": "1.0.0",
+  "description": "Read and edit Framer projects, pages and CMS content.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.framer.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "websites",
+    "design",
+    "cms"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "uxpin": {
+      "type": "http",
+      "url": "https://api.uxpin.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "perplexity",
+  "displayName": "Perplexity",
+  "version": "1.0.0",
+  "description": "Search the web with Perplexity for cited, current answers.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.perplexity.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "web-search",
+    "research",
+    "citations"
+  ],
+  "mcpServers": "./mcp.json"
+}

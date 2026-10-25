@@ -1,0 +1,19 @@
+{
+  "name": "sumo-logic",
+  "displayName": "Sumo Logic",
+  "version": "1.0.0",
+  "description": "Search Sumo Logic logs, metrics and security signals.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.sumologic.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "monitoring",
+  "keywords": [
+    "logs",
+    "observability",
+    "siem"
+  ],
+  "mcpServers": "./mcp.json"
+}

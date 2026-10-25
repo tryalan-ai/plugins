@@ -1,0 +1,19 @@
+{
+  "name": "webflow",
+  "displayName": "Webflow",
+  "version": "1.0.0",
+  "description": "Manage Webflow sites, pages, CMS collections and content.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://webflow.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "websites",
+    "cms",
+    "no-code"
+  ],
+  "mcpServers": "./mcp.json"
+}

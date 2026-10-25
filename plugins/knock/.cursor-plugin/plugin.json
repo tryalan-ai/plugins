@@ -1,0 +1,19 @@
+{
+  "name": "knock",
+  "displayName": "Knock",
+  "version": "1.0.0",
+  "description": "Manage Knock notification workflows, templates and messages.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://knock.app",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "notifications",
+    "messaging",
+    "workflows"
+  ],
+  "mcpServers": "./mcp.json"
+}

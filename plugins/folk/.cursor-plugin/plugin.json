@@ -1,0 +1,19 @@
+{
+  "name": "folk",
+  "displayName": "folk",
+  "version": "1.0.0",
+  "description": "Search and update folk contacts, companies and pipelines.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.folk.app",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "crm",
+  "keywords": [
+    "crm",
+    "contacts",
+    "pipelines"
+  ],
+  "mcpServers": "./mcp.json"
+}

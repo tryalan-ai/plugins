@@ -1,0 +1,19 @@
+{
+  "name": "cal-com",
+  "displayName": "Cal.com",
+  "version": "1.0.0",
+  "description": "Check availability and manage Cal.com bookings and event types.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://cal.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "scheduling",
+    "calendar",
+    "bookings"
+  ],
+  "mcpServers": "./mcp.json"
+}

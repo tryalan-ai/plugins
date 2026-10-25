@@ -1,0 +1,19 @@
+{
+  "name": "logrocket",
+  "displayName": "LogRocket",
+  "version": "1.0.0",
+  "description": "Search LogRocket sessions, errors and user-experience issues.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://logrocket.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "monitoring",
+  "keywords": [
+    "session-replay",
+    "frontend",
+    "errors"
+  ],
+  "mcpServers": "./mcp.json"
+}

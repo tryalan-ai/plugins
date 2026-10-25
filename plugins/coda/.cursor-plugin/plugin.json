@@ -1,0 +1,19 @@
+{
+  "name": "coda",
+  "displayName": "Coda",
+  "version": "1.0.0",
+  "description": "Read and update Coda docs, pages and tables.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://coda.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "docs",
+    "tables",
+    "wiki"
+  ],
+  "mcpServers": "./mcp.json"
+}

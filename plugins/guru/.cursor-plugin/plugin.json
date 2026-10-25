@@ -1,0 +1,19 @@
+{
+  "name": "guru",
+  "displayName": "Guru",
+  "version": "1.0.0",
+  "description": "Search and update team knowledge in Guru cards and collections.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.getguru.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "knowledge",
+  "keywords": [
+    "knowledge-base",
+    "wiki",
+    "search"
+  ],
+  "mcpServers": "./mcp.json"
+}

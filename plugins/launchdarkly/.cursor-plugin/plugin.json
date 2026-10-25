@@ -1,0 +1,19 @@
+{
+  "name": "launchdarkly",
+  "displayName": "LaunchDarkly",
+  "version": "1.0.0",
+  "description": "Create, inspect and update LaunchDarkly feature flags and targeting.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://launchdarkly.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "feature-flags",
+  "keywords": [
+    "feature-flags",
+    "rollouts",
+    "experiments"
+  ],
+  "mcpServers": "./mcp.json"
+}

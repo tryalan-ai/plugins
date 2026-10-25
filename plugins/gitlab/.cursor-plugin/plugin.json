@@ -1,0 +1,19 @@
+{
+  "name": "gitlab",
+  "displayName": "GitLab",
+  "version": "1.0.0",
+  "description": "Search GitLab projects, issues, merge requests and pipelines.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://gitlab.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "git",
+    "merge-requests",
+    "ci"
+  ],
+  "mcpServers": "./mcp.json"
+}

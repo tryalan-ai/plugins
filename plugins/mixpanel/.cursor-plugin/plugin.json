@@ -1,0 +1,19 @@
+{
+  "name": "mixpanel",
+  "displayName": "Mixpanel",
+  "version": "1.0.0",
+  "description": "Query Mixpanel events, funnels and reports.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://mixpanel.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "analytics",
+  "keywords": [
+    "product-analytics",
+    "events",
+    "funnels"
+  ],
+  "mcpServers": "./mcp.json"
+}

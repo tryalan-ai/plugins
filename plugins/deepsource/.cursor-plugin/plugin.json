@@ -1,0 +1,19 @@
+{
+  "name": "deepsource",
+  "displayName": "DeepSource",
+  "version": "1.0.0",
+  "description": "Review DeepSource code-quality and security issues across repositories.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://deepsource.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "security",
+  "keywords": [
+    "static-analysis",
+    "code-quality",
+    "security"
+  ],
+  "mcpServers": "./mcp.json"
+}

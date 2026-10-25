@@ -1,0 +1,19 @@
+{
+  "name": "axiom",
+  "displayName": "Axiom",
+  "version": "1.0.0",
+  "description": "Query Axiom datasets and logs with APL.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://axiom.co",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "monitoring",
+  "keywords": [
+    "logs",
+    "observability",
+    "events"
+  ],
+  "mcpServers": "./mcp.json"
+}

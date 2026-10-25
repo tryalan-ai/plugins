@@ -1,0 +1,19 @@
+{
+  "name": "qovery",
+  "displayName": "Qovery",
+  "version": "1.0.0",
+  "description": "Manage Qovery environments, services and deployments.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.qovery.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "deployment",
+  "keywords": [
+    "hosting",
+    "environments",
+    "deploys"
+  ],
+  "mcpServers": "./mcp.json"
+}

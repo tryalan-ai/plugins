@@ -1,0 +1,19 @@
+{
+  "name": "honeycomb",
+  "displayName": "Honeycomb",
+  "version": "1.0.0",
+  "description": "Query Honeycomb traces, events and SLOs to debug production behaviour.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.honeycomb.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "monitoring",
+  "keywords": [
+    "observability",
+    "tracing",
+    "slo"
+  ],
+  "mcpServers": "./mcp.json"
+}

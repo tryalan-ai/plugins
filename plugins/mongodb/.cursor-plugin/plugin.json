@@ -1,0 +1,19 @@
+{
+  "name": "mongodb",
+  "displayName": "MongoDB Atlas",
+  "version": "1.0.0",
+  "description": "Explore MongoDB Atlas clusters, collections and schemas and run queries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.mongodb.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "mongodb",
+    "atlas",
+    "nosql"
+  ],
+  "mcpServers": "./mcp.json"
+}

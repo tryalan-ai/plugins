@@ -1,0 +1,19 @@
+{
+  "name": "momentic",
+  "displayName": "Momentic",
+  "version": "1.0.0",
+  "description": "Create and run Momentic AI end-to-end tests and review results.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://momentic.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "testing",
+  "keywords": [
+    "e2e-testing",
+    "ai-testing",
+    "quality"
+  ],
+  "mcpServers": "./mcp.json"
+}

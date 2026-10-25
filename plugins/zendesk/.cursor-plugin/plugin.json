@@ -1,0 +1,19 @@
+{
+  "name": "zendesk",
+  "displayName": "Zendesk",
+  "version": "1.0.0",
+  "description": "Search and update Zendesk tickets to turn customer issues into engineering work.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.zendesk.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "support",
+  "keywords": [
+    "tickets",
+    "support",
+    "customers"
+  ],
+  "mcpServers": "./mcp.json"
+}

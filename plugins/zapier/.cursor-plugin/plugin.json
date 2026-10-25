@@ -1,0 +1,19 @@
+{
+  "name": "zapier",
+  "displayName": "Zapier",
+  "version": "1.0.0",
+  "description": "Run actions in thousands of apps through your own Zapier account.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://zapier.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "automation",
+  "keywords": [
+    "automation",
+    "workflows",
+    "integrations"
+  ],
+  "mcpServers": "./mcp.json"
+}

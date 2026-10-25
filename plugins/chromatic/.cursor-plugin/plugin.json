@@ -1,0 +1,19 @@
+{
+  "name": "chromatic",
+  "displayName": "Chromatic",
+  "version": "1.0.0",
+  "description": "Review Chromatic visual test builds, changes and Storybook components.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.chromatic.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "testing",
+  "keywords": [
+    "visual-testing",
+    "storybook",
+    "ui"
+  ],
+  "mcpServers": "./mcp.json"
+}

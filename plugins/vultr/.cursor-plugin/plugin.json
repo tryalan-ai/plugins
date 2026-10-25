@@ -1,0 +1,19 @@
+{
+  "name": "vultr",
+  "displayName": "Vultr",
+  "version": "1.0.0",
+  "description": "Manage Vultr instances, Kubernetes clusters, databases and DNS.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.vultr.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "infrastructure",
+  "keywords": [
+    "cloud",
+    "infrastructure",
+    "kubernetes"
+  ],
+  "mcpServers": "./mcp.json"
+}

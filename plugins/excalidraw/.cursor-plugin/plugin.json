@@ -1,0 +1,19 @@
+{
+  "name": "excalidraw",
+  "displayName": "Excalidraw",
+  "version": "1.0.0",
+  "description": "Create Excalidraw diagrams and sketches.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://excalidraw.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "diagrams",
+    "whiteboard",
+    "sketches"
+  ],
+  "mcpServers": "./mcp.json"
+}

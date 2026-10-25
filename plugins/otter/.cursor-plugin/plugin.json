@@ -1,0 +1,19 @@
+{
+  "name": "otter",
+  "displayName": "Otter",
+  "version": "1.0.0",
+  "description": "Search Otter meeting transcripts and summaries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://otter.ai",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "meetings",
+  "keywords": [
+    "meeting-notes",
+    "transcripts",
+    "summaries"
+  ],
+  "mcpServers": "./mcp.json"
+}

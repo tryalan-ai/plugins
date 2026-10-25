@@ -1,0 +1,19 @@
+{
+  "name": "pulumi",
+  "displayName": "Pulumi",
+  "version": "1.0.0",
+  "description": "Search Pulumi stacks and cloud resources and run Pulumi Copilot queries.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.pulumi.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "infrastructure",
+  "keywords": [
+    "infrastructure-as-code",
+    "cloud",
+    "stacks"
+  ],
+  "mcpServers": "./mcp.json"
+}

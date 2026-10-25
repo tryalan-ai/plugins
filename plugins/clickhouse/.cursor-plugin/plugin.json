@@ -1,0 +1,19 @@
+{
+  "name": "clickhouse",
+  "displayName": "ClickHouse Cloud",
+  "version": "1.0.0",
+  "description": "Query ClickHouse Cloud services and inspect schemas.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://clickhouse.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "database",
+  "keywords": [
+    "analytics",
+    "sql",
+    "olap"
+  ],
+  "mcpServers": "./mcp.json"
+}

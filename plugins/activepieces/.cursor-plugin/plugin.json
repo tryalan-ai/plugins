@@ -1,0 +1,19 @@
+{
+  "name": "activepieces",
+  "displayName": "Activepieces",
+  "version": "1.0.0",
+  "description": "Run Activepieces flows and actions across connected apps.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.activepieces.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "automation",
+  "keywords": [
+    "automation",
+    "workflows",
+    "integrations"
+  ],
+  "mcpServers": "./mcp.json"
+}

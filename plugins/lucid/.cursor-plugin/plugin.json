@@ -1,0 +1,19 @@
+{
+  "name": "lucid",
+  "displayName": "Lucid",
+  "version": "1.0.0",
+  "description": "Search and create Lucidchart and Lucidspark diagrams and documents.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://lucid.co",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "design",
+  "keywords": [
+    "diagrams",
+    "architecture",
+    "whiteboard"
+  ],
+  "mcpServers": "./mcp.json"
+}

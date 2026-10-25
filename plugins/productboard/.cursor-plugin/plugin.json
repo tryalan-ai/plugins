@@ -1,0 +1,19 @@
+{
+  "name": "productboard",
+  "displayName": "Productboard",
+  "version": "1.0.0",
+  "description": "Read Productboard features, insights and roadmaps.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.productboard.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "product-management",
+  "keywords": [
+    "roadmap",
+    "feedback",
+    "features"
+  ],
+  "mcpServers": "./mcp.json"
+}

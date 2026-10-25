@@ -51,16 +51,6 @@
       "description": "Look up Stripe customers, payments and subscriptions."
     },
     {
-      "name": "figma",
-      "source": "plugins/figma",
-      "description": "Read Figma files, frames and design context."
-    },
-    {
-      "name": "canva",
-      "source": "plugins/canva",
-      "description": "Search, create and edit Canva designs."
-    },
-    {
       "name": "miro",
       "source": "plugins/miro",
       "description": "Read and add content on Miro boards."
@@ -86,24 +76,569 @@
       "description": "Up-to-date library documentation and repository wikis, with a skill for choosing between them."
     },
     {
-      "name": "gmail",
-      "source": "plugins/gmail",
-      "description": "Search and read Gmail messages, manage labels and create drafts. Requires Google Workspace Developer Preview access."
-    },
-    {
-      "name": "google-calendar",
-      "source": "plugins/google-calendar",
-      "description": "Find calendars, check availability and manage events. Requires Google Workspace Developer Preview access."
-    },
-    {
-      "name": "google-drive",
-      "source": "plugins/google-drive",
-      "description": "Search and read Drive files, retrieve metadata and create files. Requires Google Workspace Developer Preview access."
-    },
-    {
       "name": "todoist",
       "source": "plugins/todoist",
       "description": "Find, create, update and complete Todoist tasks and manage projects."
+    },
+    {
+      "name": "gitlab",
+      "source": "plugins/gitlab",
+      "description": "Search GitLab projects, issues, merge requests and pipelines."
+    },
+    {
+      "name": "buildkite",
+      "source": "plugins/buildkite",
+      "description": "Inspect Buildkite pipelines, builds, jobs and logs."
+    },
+    {
+      "name": "datadog",
+      "source": "plugins/datadog",
+      "description": "Query Datadog logs, metrics, traces, monitors and incidents."
+    },
+    {
+      "name": "grafana",
+      "source": "plugins/grafana",
+      "description": "Search Grafana dashboards, query data sources and review alerts."
+    },
+    {
+      "name": "honeycomb",
+      "source": "plugins/honeycomb",
+      "description": "Query Honeycomb traces, events and SLOs to debug production behaviour."
+    },
+    {
+      "name": "axiom",
+      "source": "plugins/axiom",
+      "description": "Query Axiom datasets and logs with APL."
+    },
+    {
+      "name": "better-stack",
+      "source": "plugins/better-stack",
+      "description": "Search Better Stack logs, uptime monitors and incidents."
+    },
+    {
+      "name": "incident-io",
+      "source": "plugins/incident-io",
+      "description": "Read and update incident.io incidents, alerts and follow-ups."
+    },
+    {
+      "name": "rootly",
+      "source": "plugins/rootly",
+      "description": "Investigate Rootly incidents, alerts and on-call schedules."
+    },
+    {
+      "name": "cloudflare",
+      "source": "plugins/cloudflare",
+      "description": "Manage Cloudflare Workers, KV, R2 and D1, read Workers logs and inspect builds."
+    },
+    {
+      "name": "launchdarkly",
+      "source": "plugins/launchdarkly",
+      "description": "Create, inspect and update LaunchDarkly feature flags and targeting."
+    },
+    {
+      "name": "statsig",
+      "source": "plugins/statsig",
+      "description": "Manage Statsig gates, experiments and dynamic configs."
+    },
+    {
+      "name": "amplitude",
+      "source": "plugins/amplitude",
+      "description": "Query Amplitude charts, events, cohorts and experiments."
+    },
+    {
+      "name": "mixpanel",
+      "source": "plugins/mixpanel",
+      "description": "Query Mixpanel events, funnels and reports."
+    },
+    {
+      "name": "netlify",
+      "source": "plugins/netlify",
+      "description": "Create and deploy Netlify sites and inspect deploys and settings."
+    },
+    {
+      "name": "railway",
+      "source": "plugins/railway",
+      "description": "Manage Railway projects, services, deployments and logs."
+    },
+    {
+      "name": "heroku",
+      "source": "plugins/heroku",
+      "description": "Manage Heroku apps, dynos, add-ons and logs."
+    },
+    {
+      "name": "pulumi",
+      "source": "plugins/pulumi",
+      "description": "Search Pulumi stacks and cloud resources and run Pulumi Copilot queries."
+    },
+    {
+      "name": "aws-knowledge",
+      "source": "plugins/aws-knowledge",
+      "description": "Search AWS documentation, API references and architecture guidance."
+    },
+    {
+      "name": "microsoft-learn",
+      "source": "plugins/microsoft-learn",
+      "description": "Search Microsoft Learn documentation and code samples for Azure, .NET and Microsoft 365."
+    },
+    {
+      "name": "gitmcp",
+      "source": "plugins/gitmcp",
+      "description": "Read documentation and code from any public GitHub repository."
+    },
+    {
+      "name": "planetscale",
+      "source": "plugins/planetscale",
+      "description": "Manage PlanetScale databases, branches and deploy requests, and run queries."
+    },
+    {
+      "name": "prisma",
+      "source": "plugins/prisma",
+      "description": "Manage Prisma Postgres databases, migrations and backups."
+    },
+    {
+      "name": "mongodb",
+      "source": "plugins/mongodb",
+      "description": "Explore MongoDB Atlas clusters, collections and schemas and run queries."
+    },
+    {
+      "name": "clickhouse",
+      "source": "plugins/clickhouse",
+      "description": "Query ClickHouse Cloud services and inspect schemas."
+    },
+    {
+      "name": "motherduck",
+      "source": "plugins/motherduck",
+      "description": "Query MotherDuck and DuckDB databases with SQL."
+    },
+    {
+      "name": "socket",
+      "source": "plugins/socket",
+      "description": "Check open-source dependencies for supply-chain risk, vulnerabilities and licences."
+    },
+    {
+      "name": "postman",
+      "source": "plugins/postman",
+      "description": "Work with Postman workspaces, collections, environments and API specs."
+    },
+    {
+      "name": "exa",
+      "source": "plugins/exa",
+      "description": "Search the web and code with Exa for current documentation and examples."
+    },
+    {
+      "name": "replicate",
+      "source": "plugins/replicate",
+      "description": "Search and run Replicate models and inspect predictions."
+    },
+    {
+      "name": "braintrust",
+      "source": "plugins/braintrust",
+      "description": "Query Braintrust experiments, datasets, logs and evals for LLM apps."
+    },
+    {
+      "name": "webflow",
+      "source": "plugins/webflow",
+      "description": "Manage Webflow sites, pages, CMS collections and content."
+    },
+    {
+      "name": "framer",
+      "source": "plugins/framer",
+      "description": "Read and edit Framer projects, pages and CMS content."
+    },
+    {
+      "name": "lucid",
+      "source": "plugins/lucid",
+      "description": "Search and create Lucidchart and Lucidspark diagrams and documents."
+    },
+    {
+      "name": "excalidraw",
+      "source": "plugins/excalidraw",
+      "description": "Create Excalidraw diagrams and sketches."
+    },
+    {
+      "name": "clickup",
+      "source": "plugins/clickup",
+      "description": "Find, create and update ClickUp tasks, lists and docs."
+    },
+    {
+      "name": "monday",
+      "source": "plugins/monday",
+      "description": "Read and update monday.com boards, items and updates."
+    },
+    {
+      "name": "trello",
+      "source": "plugins/trello",
+      "description": "Find, create and move Trello cards, lists and boards."
+    },
+    {
+      "name": "shortcut",
+      "source": "plugins/shortcut",
+      "description": "Find, create and update Shortcut stories, epics and iterations."
+    },
+    {
+      "name": "productboard",
+      "source": "plugins/productboard",
+      "description": "Read Productboard features, insights and roadmaps."
+    },
+    {
+      "name": "airtable",
+      "source": "plugins/airtable",
+      "description": "Read and update Airtable bases, tables and records."
+    },
+    {
+      "name": "coda",
+      "source": "plugins/coda",
+      "description": "Read and update Coda docs, pages and tables."
+    },
+    {
+      "name": "guru",
+      "source": "plugins/guru",
+      "description": "Search and update team knowledge in Guru cards and collections."
+    },
+    {
+      "name": "zendesk",
+      "source": "plugins/zendesk",
+      "description": "Search and update Zendesk tickets to turn customer issues into engineering work."
+    },
+    {
+      "name": "granola",
+      "source": "plugins/granola",
+      "description": "Search Granola meeting notes and transcripts for decisions and requirements."
+    },
+    {
+      "name": "fireflies",
+      "source": "plugins/fireflies",
+      "description": "Search Fireflies meeting transcripts, summaries and action items."
+    },
+    {
+      "name": "fathom",
+      "source": "plugins/fathom",
+      "description": "Search Fathom meeting recordings, summaries and action items."
+    },
+    {
+      "name": "otter",
+      "source": "plugins/otter",
+      "description": "Search Otter meeting transcripts and summaries."
+    },
+    {
+      "name": "circleback",
+      "source": "plugins/circleback",
+      "description": "Search Circleback meeting notes, decisions and action items."
+    },
+    {
+      "name": "attio",
+      "source": "plugins/attio",
+      "description": "Search and update Attio companies, people, deals and notes."
+    },
+    {
+      "name": "resend",
+      "source": "plugins/resend",
+      "description": "Send transactional email and manage Resend domains, templates and contacts."
+    },
+    {
+      "name": "zapier",
+      "source": "plugins/zapier",
+      "description": "Run actions in thousands of apps through your own Zapier account."
+    },
+    {
+      "name": "activepieces",
+      "source": "plugins/activepieces",
+      "description": "Run Activepieces flows and actions across connected apps."
+    },
+    {
+      "name": "algolia",
+      "source": "plugins/algolia",
+      "description": "Manage Algolia indices, records and search settings, and run queries."
+    },
+    {
+      "name": "apify",
+      "source": "plugins/apify",
+      "description": "Run Apify Actors to scrape websites and collect web data."
+    },
+    {
+      "name": "appwrite",
+      "source": "plugins/appwrite",
+      "description": "Manage Appwrite projects, databases, storage, functions and users."
+    },
+    {
+      "name": "basecamp",
+      "source": "plugins/basecamp",
+      "description": "Read and update Basecamp projects, to-dos, messages and schedules."
+    },
+    {
+      "name": "baseten",
+      "source": "plugins/baseten",
+      "description": "Deploy and manage Baseten model endpoints and inspect their status."
+    },
+    {
+      "name": "bitrise",
+      "source": "plugins/bitrise",
+      "description": "Inspect Bitrise mobile CI apps, builds, workflows and artifacts."
+    },
+    {
+      "name": "builder-io",
+      "source": "plugins/builder-io",
+      "description": "Read and update Builder.io content, pages and design components."
+    },
+    {
+      "name": "cal-com",
+      "source": "plugins/cal-com",
+      "description": "Check availability and manage Cal.com bookings and event types."
+    },
+    {
+      "name": "chromatic",
+      "source": "plugins/chromatic",
+      "description": "Review Chromatic visual test builds, changes and Storybook components."
+    },
+    {
+      "name": "clerk",
+      "source": "plugins/clerk",
+      "description": "Manage Clerk users, organizations, sessions and auth settings."
+    },
+    {
+      "name": "close",
+      "source": "plugins/close",
+      "description": "Search and update Close leads, contacts, opportunities and activities."
+    },
+    {
+      "name": "cronitor",
+      "source": "plugins/cronitor",
+      "description": "Inspect Cronitor cron job, heartbeat and uptime monitors and their incidents."
+    },
+    {
+      "name": "cypress",
+      "source": "plugins/cypress",
+      "description": "Review Cypress Cloud test runs, failures, flaky tests and recordings."
+    },
+    {
+      "name": "deepsource",
+      "source": "plugins/deepsource",
+      "description": "Review DeepSource code-quality and security issues across repositories."
+    },
+    {
+      "name": "depot",
+      "source": "plugins/depot",
+      "description": "Inspect Depot container builds, caches and CI runners."
+    },
+    {
+      "name": "descope",
+      "source": "plugins/descope",
+      "description": "Manage Descope users, tenants, flows and auth configuration."
+    },
+    {
+      "name": "digitalocean",
+      "source": "plugins/digitalocean",
+      "description": "Manage DigitalOcean apps, droplets, databases and other resources."
+    },
+    {
+      "name": "drata",
+      "source": "plugins/drata",
+      "description": "Review Drata compliance controls, tests, evidence and policies."
+    },
+    {
+      "name": "expo",
+      "source": "plugins/expo",
+      "description": "Manage Expo projects, EAS builds, updates and submissions."
+    },
+    {
+      "name": "fal",
+      "source": "plugins/fal",
+      "description": "Discover and run fal generative models for images, video and audio."
+    },
+    {
+      "name": "flagsmith",
+      "source": "plugins/flagsmith",
+      "description": "Create and update Flagsmith feature flags, segments and environments."
+    },
+    {
+      "name": "folk",
+      "source": "plugins/folk",
+      "description": "Search and update folk contacts, companies and pipelines."
+    },
+    {
+      "name": "gitbook",
+      "source": "plugins/gitbook",
+      "description": "Search and update GitBook spaces, pages and documentation."
+    },
+    {
+      "name": "growthbook",
+      "source": "plugins/growthbook",
+      "description": "Manage GrowthBook feature flags and experiments and read results."
+    },
+    {
+      "name": "knock",
+      "source": "plugins/knock",
+      "description": "Manage Knock notification workflows, templates and messages."
+    },
+    {
+      "name": "logrocket",
+      "source": "plugins/logrocket",
+      "description": "Search LogRocket sessions, errors and user-experience issues."
+    },
+    {
+      "name": "loops",
+      "source": "plugins/loops",
+      "description": "Manage Loops contacts, transactional email and campaigns."
+    },
+    {
+      "name": "mabl",
+      "source": "plugins/mabl",
+      "description": "Run and review mabl automated tests, plans and results."
+    },
+    {
+      "name": "mintlify",
+      "source": "plugins/mintlify",
+      "description": "Search and update Mintlify documentation sites."
+    },
+    {
+      "name": "momentic",
+      "source": "plugins/momentic",
+      "description": "Create and run Momentic AI end-to-end tests and review results."
+    },
+    {
+      "name": "namespace",
+      "source": "plugins/namespace",
+      "description": "Inspect Namespace CI runners, builds and development environments."
+    },
+    {
+      "name": "novu",
+      "source": "plugins/novu",
+      "description": "Manage Novu notification workflows, subscribers and messages."
+    },
+    {
+      "name": "nuclino",
+      "source": "plugins/nuclino",
+      "description": "Search and update Nuclino workspaces, items and collections."
+    },
+    {
+      "name": "paddle",
+      "source": "plugins/paddle",
+      "description": "Manage Paddle products, prices, customers, subscriptions and transactions."
+    },
+    {
+      "name": "pandadoc",
+      "source": "plugins/pandadoc",
+      "description": "Create and track PandaDoc documents, templates and contracts."
+    },
+    {
+      "name": "perplexity",
+      "source": "plugins/perplexity",
+      "description": "Search the web with Perplexity for cited, current answers."
+    },
+    {
+      "name": "plain",
+      "source": "plugins/plain",
+      "description": "Search and update Plain support threads, customers and labels."
+    },
+    {
+      "name": "porter",
+      "source": "plugins/porter",
+      "description": "Manage Porter applications, deployments and clusters."
+    },
+    {
+      "name": "qovery",
+      "source": "plugins/qovery",
+      "description": "Manage Qovery environments, services and deployments."
+    },
+    {
+      "name": "sanity",
+      "source": "plugins/sanity",
+      "description": "Query and update Sanity content, schemas and datasets."
+    },
+    {
+      "name": "sauce-labs",
+      "source": "plugins/sauce-labs",
+      "description": "Review Sauce Labs test jobs, devices, builds and results."
+    },
+    {
+      "name": "slab",
+      "source": "plugins/slab",
+      "description": "Search and update Slab posts and topics."
+    },
+    {
+      "name": "slite",
+      "source": "plugins/slite",
+      "description": "Search and update Slite notes and knowledge base."
+    },
+    {
+      "name": "spline",
+      "source": "plugins/spline",
+      "description": "Create and edit Spline 3D scenes and assets."
+    },
+    {
+      "name": "sumo-logic",
+      "source": "plugins/sumo-logic",
+      "description": "Search Sumo Logic logs, metrics and security signals."
+    },
+    {
+      "name": "supernormal",
+      "source": "plugins/supernormal",
+      "description": "Search Supernormal meeting notes, summaries and action items."
+    },
+    {
+      "name": "tally",
+      "source": "plugins/tally",
+      "description": "Create Tally forms and read their submissions."
+    },
+    {
+      "name": "tavily",
+      "source": "plugins/tavily",
+      "description": "Search and extract web content with Tavily for current information."
+    },
+    {
+      "name": "tldv",
+      "source": "plugins/tldv",
+      "description": "Search tl;dv meeting recordings, notes and highlights."
+    },
+    {
+      "name": "turso",
+      "source": "plugins/turso",
+      "description": "Manage Turso databases and groups and run SQL queries."
+    },
+    {
+      "name": "twenty",
+      "source": "plugins/twenty",
+      "description": "Search and update Twenty CRM people, companies and opportunities."
+    },
+    {
+      "name": "upstash",
+      "source": "plugins/upstash",
+      "description": "Manage Upstash Redis, QStash and Vector databases."
+    },
+    {
+      "name": "pylon",
+      "source": "plugins/pylon",
+      "description": "Search and update Pylon support issues, accounts and knowledge base."
+    },
+    {
+      "name": "uxpin",
+      "source": "plugins/uxpin",
+      "description": "Read UXPin designs, prototypes and design-system components."
+    },
+    {
+      "name": "vultr",
+      "source": "plugins/vultr",
+      "description": "Manage Vultr instances, Kubernetes clusters, databases and DNS."
+    },
+    {
+      "name": "whimsical",
+      "source": "plugins/whimsical",
+      "description": "Create and read Whimsical flowcharts, wireframes, mind maps and docs."
+    },
+    {
+      "name": "workos",
+      "source": "plugins/workos",
+      "description": "Manage WorkOS organizations, SSO connections, directories and users."
+    },
+    {
+      "name": "redis-docs",
+      "source": "plugins/redis-docs",
+      "description": "Search Redis documentation and get answers about Redis commands and patterns."
+    },
+    {
+      "name": "qdrant-docs",
+      "source": "plugins/qdrant-docs",
+      "description": "Search Qdrant vector database documentation."
     }
   ]
 }

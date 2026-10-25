@@ -1,0 +1,19 @@
+{
+  "name": "clerk",
+  "displayName": "Clerk",
+  "version": "1.0.0",
+  "description": "Manage Clerk users, organizations, sessions and auth settings.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://clerk.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "auth",
+  "keywords": [
+    "authentication",
+    "users",
+    "organizations"
+  ],
+  "mcpServers": "./mcp.json"
+}

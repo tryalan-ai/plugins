@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "displayName": "Cypress Cloud",
+  "version": "1.0.0",
+  "description": "Review Cypress Cloud test runs, failures, flaky tests and recordings.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.cypress.io",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "testing",
+  "keywords": [
+    "e2e-testing",
+    "test-runs",
+    "flaky-tests"
+  ],
+  "mcpServers": "./mcp.json"
+}
