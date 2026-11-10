@@ -2,8 +2,9 @@
 // Validates the marketplace the way Alan imports it. No dependencies, so CI needs only Node.
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = new URL("..", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const NAME = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const SECRET_REFERENCE = /\$\{([A-Za-z_][A-Za-z0-9_]*)(?::-[^}]*)?\}/g;
 // Cursor-hosted proxies authenticate against Cursor accounts and never work from Alan.
@@ -60,7 +61,7 @@ function checkSkills(where, pluginDir) {
       fail(where, `skills/${entry} has no SKILL.md`);
       continue;
     }
-    const text = readFileSync(skillPath, "utf8");
+    const text = readFileSync(skillPath, "utf8").replaceAll("\r\n", "\n");
     const frontmatter = /^---\n([\s\S]*?)\n---/.exec(text)?.[1] ?? "";
     const name = /^name:\s*(.+)$/m.exec(frontmatter)?.[1]?.trim();
     const description = /^description:\s*(.+)$/m.exec(frontmatter)?.[1]?.trim();
