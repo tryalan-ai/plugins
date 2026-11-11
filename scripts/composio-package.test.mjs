@@ -34,6 +34,8 @@ test('all 16 personal backend registry tuples have one complete marketplace pack
     assert.equal(checkComposioServer(name, name, mcp.mcpServers[name]), undefined);
     const readme = readFileSync(resolve(root, entry.source, 'README.md'), 'utf8');
     assert.match(readme, /personal OAuth/);
+    assert.ok(readme.includes("[personal Composio deployment guide](../../docs/composio-personal-deployment.md)"));
+    assert.ok(existsSync(resolve(root, entry.source, "../../docs/composio-personal-deployment.md")));
     assert.match(readme, /tenant administrator consent/);
     assert.match(readme, /not been verified end to end/);
   }

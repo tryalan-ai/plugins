@@ -8,7 +8,7 @@ Alan's callbacks:
 - Staging: `https://staging-api.tryalan.ai/public/mcp-connections/oauth/callback`
 - Local: `http://127.0.0.1:8400/public/mcp-connections/oauth/callback`
 
-Results come from `scripts/probe-auth.mjs`, run on 2026-10-25 against the production callback. Gmail, Google Calendar, Google Drive, Canva and Figma were removed from the marketplace on that date. Figma now has a separate [Alan-managed Composio package](../plugins/figma/README.md); it does not use direct OAuth discovery. Add the other providers back once the action below is done and `probe-auth.mjs` reports `direct`.
+Results come from `scripts/probe-auth.mjs`, run on 2026-10-25 against the production callback. Gmail, Google Calendar, Google Drive, Canva and Figma were removed from the marketplace on that date. Figma now has a separate [Alan-managed Composio package](../plugins/figma/README.md); it does not use direct OAuth discovery. Gmail, Google Calendar, Google Drive and Asana now also have personal Alan-managed Composio packages; follow the [managed deployment guide](composio-personal-deployment.md) for that route. The direct vendor MCP endpoints in the historical table below still require the setup described here.
 
 ## Needs an Alan OAuth app
 

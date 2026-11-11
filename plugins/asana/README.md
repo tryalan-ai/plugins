@@ -8,6 +8,8 @@ Only the backend toolkit allowlist is exposed. Deletion and sharing/permission c
 
 ## Deployment and validation
 
+Follow the shared [personal Composio deployment guide](../../docs/composio-personal-deployment.md) for required project-key permissions and deterministic account selection.
+
 Requires Alan managed toolkit sessions, `COMPOSIO_PROJECT_API_KEY` and `COMPOSIO_ASANA_AUTH_CONFIG_ID` in deployment secret storage. Alan resolves `managedAuth: composio_session` and `composioToolkit: asana` at runtime; credentials do not belong in this package. Missing provider configuration prevents connection.
 
 Package and registry checks do not establish live OAuth or provider execution. Personal consent, account selection, an allowed tool call, reconnect and revocation remain rollout checks. This package has not been verified end to end with a live account.
