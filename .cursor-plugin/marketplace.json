@@ -1044,6 +1044,11 @@
       "name": "you-com",
       "source": "plugins/you-com",
       "description": "Search the web and news with You.com for current, cited results."
+    },
+    {
+      "name": "figma",
+      "source": "plugins/figma",
+      "description": "Read Figma files, inspect components and explore design tokens."
     }
   ]
 }
