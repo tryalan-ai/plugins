@@ -6,7 +6,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 
 ## Plugins
 
-208 plugins in 21 categories, focused on engineering, product and company tools.
+209 plugins in 21 categories, focused on engineering, product and company tools.
 
 ### Code and CI
 
@@ -180,6 +180,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Builder.io | OAuth | Read and update Builder.io content, pages and design components |
 | Eraser | OAuth | Generate, manage, and update Eraser diagrams and files |
 | Excalidraw | None | Create Excalidraw diagrams and sketches |
+| Figma | OAuth through Alan-managed Composio sessions | Read Figma files, inspect components and explore design tokens |
 | Framer | OAuth | Read and edit Framer projects, pages and CMS content |
 | Lucid | OAuth | Search and create Lucidchart and Lucidspark diagrams and documents |
 | Magic Patterns | OAuth | Discuss and iterate on Magic Patterns designs |
@@ -321,7 +322,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | Juicebox | OAuth | Search for candidates and manage talent pipelines with Juicebox |
 | Workable | OAuth | Search Workable jobs, candidates and hiring stages |
 
-OAuth plugins use provider discovery and either dynamic registration or an administrator-registered client. Every OAuth plugin listed here was checked with `scripts/probe-auth.mjs` to accept Alan's production callback. Vendors that still need an Alan OAuth app or partner approval, including Google Workspace, Canva and Figma, are tracked in [docs/vendor-access.md](docs/vendor-access.md) and return to the marketplace once they work.
+Direct OAuth plugins use provider discovery and either dynamic registration or an administrator-registered client. These direct OAuth plugins were checked with `scripts/probe-auth.mjs` to accept Alan's production callback. [Figma](plugins/figma/README.md) uses Alan-managed Composio sessions instead. Vendors that still need an Alan OAuth app or partner approval, including Google Workspace and Canva, are tracked in [docs/vendor-access.md](docs/vendor-access.md) and return to the marketplace once they work.
 
 ## Layout
 
@@ -336,7 +337,7 @@ This is the Cursor plugin format, which Alan reads alongside Claude Code plugins
 
 ## Adding a plugin
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Run `node scripts/validate.mjs` before opening a pull request; CI runs the same check.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Run `node scripts/validate.mjs` and `node --test scripts/figma-package.test.mjs` before opening a pull request; CI runs the same checks.
 
 ## Using a different marketplace in Alan
 
