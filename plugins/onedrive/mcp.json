@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "onedrive": {
+      "type": "http",
+      "url": "https://connect.composio.dev/mcp",
+      "managedAuth": "composio_session",
+      "composioToolkit": "one_drive"
+    }
+  }
+}

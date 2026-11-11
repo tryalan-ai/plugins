@@ -258,7 +258,7 @@
     {
       "name": "clickup",
       "source": "plugins/clickup",
-      "description": "Find, create and update ClickUp tasks, lists and docs."
+      "description": "Discover ClickUp workspaces and lists; read, create and update tasks."
     },
     {
       "name": "monday",
@@ -1049,6 +1049,81 @@
       "name": "figma",
       "source": "plugins/figma",
       "description": "Read Figma files, inspect components and explore design tokens."
+    },
+    {
+      "name": "confluence",
+      "source": "plugins/confluence",
+      "description": "Search, read, create and update Confluence pages."
+    },
+    {
+      "name": "asana",
+      "source": "plugins/asana",
+      "description": "Discover Asana workspaces and projects; read, create and update tasks."
+    },
+    {
+      "name": "google-meet",
+      "source": "plugins/google-meet",
+      "description": "Read and create Google Meet spaces; discover conferences, recordings and transcripts."
+    },
+    {
+      "name": "gmail",
+      "source": "plugins/gmail",
+      "description": "Search and read Gmail messages; create and update email drafts."
+    },
+    {
+      "name": "google-drive",
+      "source": "plugins/google-drive",
+      "description": "List Google Drive files, read metadata and create text files and folders."
+    },
+    {
+      "name": "google-docs",
+      "source": "plugins/google-docs",
+      "description": "Search, read and create Google Docs documents and insert text."
+    },
+    {
+      "name": "google-sheets",
+      "source": "plugins/google-sheets",
+      "description": "Search, read and create Google Sheets spreadsheets and update cell values."
+    },
+    {
+      "name": "google-slides",
+      "source": "plugins/google-slides",
+      "description": "Read and create Google Slides presentations."
+    },
+    {
+      "name": "google-calendar",
+      "source": "plugins/google-calendar",
+      "description": "Read Google calendars and events and find free time slots."
+    },
+    {
+      "name": "outlook",
+      "source": "plugins/outlook",
+      "description": "Search and read Outlook messages and create email drafts."
+    },
+    {
+      "name": "onedrive",
+      "source": "plugins/onedrive",
+      "description": "Discover OneDrive files and folders, create text files and update file content."
+    },
+    {
+      "name": "sharepoint",
+      "source": "plugins/sharepoint",
+      "description": "Discover SharePoint sites and lists; read, create and update list items."
+    },
+    {
+      "name": "microsoft-teams",
+      "source": "plugins/microsoft-teams",
+      "description": "Discover joined Microsoft Teams, channels and chats and read messages."
+    },
+    {
+      "name": "excel",
+      "source": "plugins/excel",
+      "description": "Search Excel files, read ranges, create workbooks and update ranges."
+    },
+    {
+      "name": "microsoft-word",
+      "source": "plugins/microsoft-word",
+      "description": "Find, read, create and edit Microsoft Word DOCX files."
     }
   ]
 }

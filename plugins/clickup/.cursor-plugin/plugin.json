@@ -1,8 +1,8 @@
 {
   "name": "clickup",
   "displayName": "ClickUp",
-  "version": "1.0.0",
-  "description": "Find, create and update ClickUp tasks, lists and docs.",
+  "version": "1.0.1",
+  "description": "Discover ClickUp workspaces and lists; read, create and update tasks.",
   "author": {
     "name": "Alan"
   },
@@ -13,7 +13,9 @@
   "keywords": [
     "tasks",
     "projects",
-    "docs"
+    "clickup",
+    "composio",
+    "personal"
   ],
   "logo": "assets/logo.png",
   "mcpServers": "./mcp.json"

@@ -1,0 +1,22 @@
+{
+  "name": "excel",
+  "displayName": "Microsoft Excel",
+  "version": "1.0.0",
+  "description": "Search Excel files, read ranges, create workbooks and update ranges.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.microsoft.com/microsoft-365/excel",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "excel",
+    "composio",
+    "personal",
+    "microsoft-365",
+    "office-365"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sharepoint",
+  "displayName": "SharePoint",
+  "version": "1.0.0",
+  "description": "Discover SharePoint sites and lists; read, create and update list items.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.microsoft.com/microsoft-365/sharepoint/collaboration",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "sharepoint",
+    "composio",
+    "personal",
+    "microsoft-365",
+    "office-365"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

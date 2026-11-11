@@ -4,6 +4,8 @@ import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { COMPOSIO_PACKAGES, checkComposioServer } from "./composio-contract.mjs";
+
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const NAME = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const SECRET_REFERENCE = /\$\{([A-Za-z_][A-Za-z0-9_]*)(?::-[^}]*)?\}/g;
@@ -97,8 +99,14 @@ for (const entry of marketplace?.plugins ?? []) {
     fail(where, "marketplace description differs from the manifest");
   }
   const mcp = readJson(`${entry.source}/${manifest.mcpServers ?? "mcp.json"}`, where);
+  if (COMPOSIO_PACKAGES.some(([name]) => name === entry.name) &&
+      Object.keys(mcp?.mcpServers ?? {}).length !== 1) {
+    fail(where, "personal Composio packages must declare exactly one server");
+  }
   for (const [key, server] of Object.entries(mcp?.mcpServers ?? {})) {
     checkServer(where, key, server);
+    const composioError = checkComposioServer(entry.name, key, server);
+    if (composioError) fail(where, composioError);
     servers += 1;
   }
   skills += checkSkills(where, entry.source);

@@ -1,0 +1,22 @@
+{
+  "name": "microsoft-teams",
+  "displayName": "Microsoft Teams",
+  "version": "1.0.0",
+  "description": "Discover joined Microsoft Teams, channels and chats and read messages.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.microsoft.com/microsoft-teams",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "microsoft-teams",
+    "composio",
+    "personal",
+    "microsoft-365",
+    "office-365"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

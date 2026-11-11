@@ -1,0 +1,22 @@
+{
+  "name": "outlook",
+  "displayName": "Outlook",
+  "version": "1.0.0",
+  "description": "Search and read Outlook messages and create email drafts.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://outlook.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "outlook",
+    "composio",
+    "personal",
+    "microsoft-365",
+    "office-365"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

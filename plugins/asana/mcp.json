@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "asana": {
+      "type": "http",
+      "url": "https://connect.composio.dev/mcp",
+      "managedAuth": "composio_session",
+      "composioToolkit": "asana"
+    }
+  }
+}
