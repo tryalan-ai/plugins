@@ -1,0 +1,22 @@
+{
+  "name": "microsoft-word",
+  "displayName": "Microsoft Word",
+  "version": "1.0.0",
+  "description": "Find, read, create and edit Microsoft Word DOCX files.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.microsoft.com/microsoft-365/word",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "microsoft-word",
+    "composio",
+    "personal",
+    "microsoft-365",
+    "office-365"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

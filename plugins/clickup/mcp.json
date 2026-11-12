@@ -2,7 +2,9 @@
   "mcpServers": {
     "clickup": {
       "type": "http",
-      "url": "https://mcp.clickup.com/mcp"
+      "url": "https://connect.composio.dev/mcp",
+      "managedAuth": "composio_session",
+      "composioToolkit": "clickup"
     }
   }
 }

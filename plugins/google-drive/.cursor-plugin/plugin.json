@@ -1,0 +1,22 @@
+{
+  "name": "google-drive",
+  "displayName": "Google Drive",
+  "version": "1.0.0",
+  "description": "List Google Drive files, read metadata and create text files and folders.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://drive.google.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "google-drive",
+    "composio",
+    "personal",
+    "google-workspace",
+    "g-suite"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

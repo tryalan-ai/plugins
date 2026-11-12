@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "google-drive": {
+      "type": "http",
+      "url": "https://connect.composio.dev/mcp",
+      "managedAuth": "composio_session",
+      "composioToolkit": "googledrive"
+    }
+  }
+}

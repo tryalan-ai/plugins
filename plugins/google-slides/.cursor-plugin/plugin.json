@@ -1,0 +1,22 @@
+{
+  "name": "google-slides",
+  "displayName": "Google Slides",
+  "version": "1.0.0",
+  "description": "Read and create Google Slides presentations.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://slides.google.com",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "productivity",
+  "keywords": [
+    "google-slides",
+    "composio",
+    "personal",
+    "google-workspace",
+    "g-suite"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}

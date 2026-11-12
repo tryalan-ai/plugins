@@ -6,7 +6,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 
 ## Plugins
 
-209 plugins in 21 categories, focused on engineering, product and company tools.
+224 plugins in 21 categories, focused on engineering, product and company tools.
 
 ### Code and CI
 
@@ -200,7 +200,7 @@ A plugin bundles remote MCP servers and skills. Installing one makes its skills 
 | --- | --- | --- |
 | Atlassian | OAuth | Work with Jira issues and Confluence pages |
 | Basecamp | OAuth | Read and update Basecamp projects, to-dos, messages and schedules |
-| ClickUp | OAuth | Find, create and update ClickUp tasks, lists and docs |
+| ClickUp | OAuth | Discover ClickUp workspaces and lists; read, create and update tasks |
 | Enterpret | OAuth | Get answers from unified feedback of your customers |
 | Featurebase | OAuth | Read and update Featurebase feedback, roadmap and changelog posts |
 | Linear | OAuth | Find, create and update Linear issues, projects and comments |
@@ -342,3 +342,27 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Run `node scripts/validate.mjs` and `nod
 ## Using a different marketplace in Alan
 
 Alan reads `PLUGIN_DEFAULT_MARKETPLACES` (`owner/repo@ref`, comma-separated). Organization admins can also add their own GitHub marketplaces from the Plugins page.
+
+## Personal Composio integrations
+
+These individual app packages use personal OAuth through Alan-managed Composio sessions. Team-shared connections are deferred; work or school accounts may require tenant administrator consent. Provider configuration and live consent/tool validation are deployment prerequisites. Google Workspace / G Suite and Microsoft 365 / Office 365 are search terms, not whole-suite coverage.
+
+| Plugin | Initial capabilities |
+| --- | --- |
+| Confluence | Search, read, create and update Confluence pages. |
+| ClickUp | Discover ClickUp workspaces and lists; read, create and update tasks. |
+| Asana | Discover Asana workspaces and projects; read, create and update tasks. |
+| Google Meet | Read and create Google Meet spaces; discover conferences, recordings and transcripts. |
+| Gmail | Search and read Gmail messages; create and update email drafts. |
+| Google Drive | List Google Drive files, read metadata and create text files and folders. |
+| Google Docs | Search, read and create Google Docs documents and insert text. |
+| Google Sheets | Search, read and create Google Sheets spreadsheets and update cell values. |
+| Google Slides | Read and create Google Slides presentations. |
+| Google Calendar | Read Google calendars and events and find free time slots. |
+| Outlook | Search and read Outlook messages and create email drafts. |
+| OneDrive | Discover OneDrive files and folders, create text files and update file content. |
+| SharePoint | Discover SharePoint sites and lists; read, create and update list items. |
+| Microsoft Excel | Search Excel files, read ranges, create workbooks and update ranges. |
+| Microsoft Word | Find, read, create and edit Microsoft Word DOCX files. |
+
+Mail integrations expose drafts, not sending. Google Calendar is read-only. Google Slides creates and reads presentations; presentation editing is unavailable. PowerPoint is not included. See each package README for deployment and validation limits.

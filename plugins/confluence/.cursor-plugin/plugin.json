@@ -1,0 +1,20 @@
+{
+  "name": "confluence",
+  "displayName": "Confluence",
+  "version": "1.0.0",
+  "description": "Search, read, create and update Confluence pages.",
+  "author": {
+    "name": "Alan"
+  },
+  "homepage": "https://www.atlassian.com/software/confluence",
+  "repository": "https://github.com/tryalan-ai/plugins",
+  "license": "MIT",
+  "category": "project-management",
+  "keywords": [
+    "confluence",
+    "composio",
+    "personal"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}
