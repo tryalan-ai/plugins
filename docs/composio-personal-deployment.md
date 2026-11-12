@@ -35,7 +35,6 @@ Set each enabled toolkit's auth configuration in the same deployment and project
 | outlook | `outlook` | `COMPOSIO_OUTLOOK_AUTH_CONFIG_ID` |
 | onedrive | `one_drive` | `COMPOSIO_ONE_DRIVE_AUTH_CONFIG_ID` |
 | sharepoint | `share_point` | `COMPOSIO_SHARE_POINT_AUTH_CONFIG_ID` |
-| microsoft-teams | `microsoft_teams` | `COMPOSIO_MICROSOFT_TEAMS_AUTH_CONFIG_ID` |
 | excel | `excel` | `COMPOSIO_EXCEL_AUTH_CONFIG_ID` |
 | microsoft-word | `microsoft_word` | `COMPOSIO_MICROSOFT_WORD_AUTH_CONFIG_ID` |
 

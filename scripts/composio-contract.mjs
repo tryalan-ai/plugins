@@ -5,7 +5,7 @@ export const COMPOSIO_PACKAGES = [
   ['google-docs', 'googledocs'], ['google-sheets', 'googlesheets'],
   ['google-slides', 'googleslides'], ['google-calendar', 'googlecalendar'],
   ['outlook', 'outlook'], ['onedrive', 'one_drive'], ['sharepoint', 'share_point'],
-  ['microsoft-teams', 'microsoft_teams'], ['excel', 'excel'], ['microsoft-word', 'microsoft_word'],
+  ['excel', 'excel'], ['microsoft-word', 'microsoft_word'],
 ];
 
 export function checkComposioServer(pluginName, serverKey, server) {

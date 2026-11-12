@@ -1111,11 +1111,6 @@
       "description": "Discover SharePoint sites and lists; read, create and update list items."
     },
     {
-      "name": "microsoft-teams",
-      "source": "plugins/microsoft-teams",
-      "description": "Discover joined Microsoft Teams, channels and chats and read messages."
-    },
-    {
       "name": "excel",
       "source": "plugins/excel",
       "description": "Search Excel files, read ranges, create workbooks and update ranges."

@@ -362,8 +362,7 @@ These individual app packages use personal OAuth through Alan-managed Composio s
 | Outlook | Search and read Outlook messages and create email drafts. |
 | OneDrive | Discover OneDrive files and folders, create text files and update file content. |
 | SharePoint | Discover SharePoint sites and lists; read, create and update list items. |
-| Microsoft Teams | Discover joined Microsoft Teams, channels and chats and read messages. |
 | Microsoft Excel | Search Excel files, read ranges, create workbooks and update ranges. |
 | Microsoft Word | Find, read, create and edit Microsoft Word DOCX files. |
 
-Mail integrations expose drafts, not sending. Google Calendar is read-only; Microsoft Teams exposes discovery and message reading. Google Slides creates and reads presentations; presentation editing is unavailable. PowerPoint is not included. See each package README for deployment and validation limits.
+Mail integrations expose drafts, not sending. Google Calendar is read-only. Google Slides creates and reads presentations; presentation editing is unavailable. PowerPoint is not included. See each package README for deployment and validation limits.

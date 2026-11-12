@@ -8,9 +8,18 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const json = path => JSON.parse(readFileSync(resolve(root, path), 'utf8'));
 const marketplace = json('.cursor-plugin/marketplace.json');
 
-test('all 16 personal backend registry tuples have one complete marketplace package', () => {
-  assert.equal(COMPOSIO_PACKAGES.length, 16);
-  assert.equal(new Set(COMPOSIO_PACKAGES.map(([name]) => name)).size, 16);
+test('Microsoft Teams is absent and cannot use the managed gateway', () => {
+  assert.equal(marketplace.plugins.some(entry => entry.name === 'microsoft-teams'), false);
+  assert.equal(existsSync(resolve(root, 'plugins/microsoft-teams')), false);
+  assert.ok(checkComposioServer('microsoft-teams', 'microsoft-teams', {
+    type: 'http', url: 'https://connect.composio.dev/mcp',
+    managedAuth: 'composio_session', composioToolkit: 'microsoft_teams',
+  }));
+});
+
+test('all 15 personal backend registry tuples have one complete marketplace package', () => {
+  assert.equal(COMPOSIO_PACKAGES.length, 15);
+  assert.equal(new Set(COMPOSIO_PACKAGES.map(([name]) => name)).size, 15);
   for (const [name, slug] of COMPOSIO_PACKAGES) {
     const entries = marketplace.plugins.filter(entry => entry.name === name);
     assert.equal(entries.length, 1, name);
